@@ -1,0 +1,21 @@
+<div class="coll tap-6 box">
+	<% if(res.locals.flash != undefined) {%>
+		<% if(res.locals.flash.error != undefined){ %>
+			<div class="box box-error"><%= res.locals.flash.error %></div>
+		<% } %>
+		<% if(res.locals.flash.success != undefined){ %>
+			<div class="box box-success"><%= res.locals.flash.success %></div>
+		<% } %>
+	<% } %>
+	<h1>Vul uw naam in</h1>
+	<form action="/check_person" class="from" id="userFrom">
+		<input type="text" class="text-field" id="first_name" name="first_name" placeholder="Voornaam">
+		<input type="text" class="text-field" id="last_name" name="last_name" placeholder="Achternaam">
+		<input type="text" id="photo_name" name="image_name" value="test" style="display:none">
+		<input type="submit" class="btn btn-submit" value="Stuur">
+	</form>
+</div>
+<div class="coll tap-6 box box-flat">
+	<img src = " " id="photo">
+</div>
+<script src="/js/index.js"></script>

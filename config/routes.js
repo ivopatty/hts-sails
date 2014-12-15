@@ -33,7 +33,28 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'homepage'
+    controller:"main",
+    action:"index"
+  },
+  '/check_person': {
+    controller:"person",
+    action:"check_person"
+  },
+  '/create_person':{
+    controller: "person",
+    action:"create_person"
+  },
+  '/select_person': {
+    controller:"person",
+    action:"select_person"
+  },
+  '/send_image': {
+    controller: "image",
+    action: "send_image"
+  },
+  "/create_and_send":{
+    controller: "image",
+    action: "create_and_send"
   }
 
   /***************************************************************************

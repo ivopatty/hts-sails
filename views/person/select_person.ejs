@@ -1,0 +1,19 @@
+<div class="coll tap-6 box">
+	<h1>Selecteer de juiste postcode</h1>
+	<form action="/send_image" method="post" class="from" id="userFrom">
+		<input type="text" class="text-field" id="first_name" name="first_name" value = "<%= person[0].first_name %>" >
+		<input type="text" class="text-field" id="last_name" name="last_name" value = "<%= person[0].last_name %>" >
+		<select name="person_id" id="zipcode">
+			<% for(var i in person){ %>
+				<option value="<%= person[i].id %>"><%= person[i].zipcode %></option>
+			<% } %>
+		</select>
+		<input type="text" id="photo_name" name="image_name" value="<%= photo %>" style="display:none"><br>
+		<input type="submit" value="Stuur" class="btn btn-submit">
+	</form>
+</div>
+<div class="coll tap-6">
+	<div class="box box-flat">
+		<img src="<%= photoPath %>" alt="">
+	</div>	
+</div>
