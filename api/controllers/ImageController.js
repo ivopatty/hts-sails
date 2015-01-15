@@ -1,9 +1,8 @@
 /**
- * ImageController
- *
- * @description :: Server-side logic for managing images
- * @help        :: See http://links.sailsjs.org/docs/controllers
- */
+* This controller is used to send images to  the 100jaarHTS server.
+*
+* @class ImageController
+*/
 var restler = require("restler");
 var fs = require("fs");
 var http = require("http");
@@ -12,6 +11,14 @@ var imgType = "image/jpg";
 var image_token = "48d2fc2358a74103eddcfc91ce56b845704aa557d6cfd12d83a064ba315118e982f4ca049b1ad309176d5593475b06ac6c1736bfa609349c981cb29687ad44e0";
 var user_token = "1b36fc3a3461ecf662b8b839ab7c96ad643e77c886f31346a259bb4bc69b6ab87266efa6af227c2492d999b60c24a33ee98f8af1a5fdec8bfd19c274b7166976";
 module.exports = {
+
+    /**
+    * Organise the parameters for sending to the server and calls the sendImage function to send the photo and user to the sever.
+    *
+    * @method send_image
+    * @param {int} person_id The id of the person on the photo
+    * @param {file} image_name The photo file.
+    */
 	'send_image': function(req,res){
 		var id;
 		var image;
@@ -30,6 +37,19 @@ module.exports = {
 		req.session.flash = {success: "image successfully uploaded"}
 		res.redirect("/");
 	},
+    /**
+    * Organise the parameters for sending to the server and calls the sendImage function to create a new user and send the user photo to the server.
+    *
+    * @method create_and_send
+    * @param {String} first_name Users first name
+    * @param {String} last_name Users last name
+    * @param {String} zipcode Users zipcode
+    * @param {String} address Users address
+    * @param {String} email Users email
+    * @param {int} graduation_year Users graduation year
+    * @param {String} major Users major
+    * @param {file} image_name Users photo
+    */
 	'create_and_send': function(req,res){
 		var data = req.params.all();
 		delete data["image_name"];
@@ -39,6 +59,17 @@ module.exports = {
 
 	}
 };
+/**
+    * (Helper function) Send the photo and user paramters to the server
+    *
+    * @method sendImage
+    * @param {String} url The post url
+    * @param {Object} data user parameters
+    * @param {file} image User photo
+    * @param {String} token the post validation token
+    * @param {Object} req Request object
+    * @param {Object} res Respons object
+    */
 function sendImage(url, data, image, token, req, res){
 	image = JSON.parse(image);
 	var imagePath = image.serverPath+image.file;

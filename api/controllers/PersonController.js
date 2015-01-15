@@ -1,9 +1,8 @@
 /**
- * PersonController
- *
- * @description :: Server-side logic for managing people
- * @help        :: See http://links.sailsjs.org/docs/controllers
- */
+* Handels al the user requestes to the server and renders all the user related forms. 
+*
+* @class PersonController
+*/
 var user_toke = "1b36fc3a3461ecf662b8b839ab7c96ad643e77c886f31346a259bb4bc69b6ab87266efa6af227c2492d999b60c24a33ee98f8af1a5fdec8bfd19c274b7166976";
 
 var restler = require("restler");
@@ -11,6 +10,17 @@ var postServer = "http://dev.100jaarhts.nl/";
 var photo = "";
 var person = {};
 module.exports = {
+    /**
+    * Sends a check person request to the 100jaarhts server. 
+    * it redirects to the select_person path if there are multiple users with the same name.
+    * it redirects to thecreate_person path if there is no known user with the given name.
+    * it redirects to the send_image path if the given name is known and unique.
+    *
+    * @method check_person
+    * @param {String} first_name . The first name of the user
+    * @param {String} last_name . The last name of the user
+    * @param {String} image_name . The name of the photo what belongs to the user
+    */
 	'check_person': function(req, res){
 		if(req.param('first_name').length == 0 || req.param('last_name').length == 0 ){
 			req.session.flash = {error: "Vul een voor- en achternaam in"}
@@ -49,11 +59,21 @@ module.exports = {
 		    }
 		  });
 	},
+    /**
+    * Renders the select person view
+    *
+    * @method select_person
+    */
 	'select_person':function(req,res){
 		var photoObj = JSON.parse(photo);
 		var photoPath = photoObj.clientPath+photoObj.file;
 		return res.view({photo:photo,person:person, photoPath: photoPath});
 	},
+  /**
+    * Renders the create person view
+    *
+    * @method select_person
+    */
 	'create_person':function(req,res){
 		var photoObj = JSON.parse(photo);
 		var photoPath = photoObj.clientPath+photoObj.file;

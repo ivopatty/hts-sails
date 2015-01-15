@@ -1,0 +1,9 @@
+{
+  "name": "100jaatHTS Sails Js",
+  "description": "Send photo to 100 jaar hts server",
+  "developer": {
+    "name": "Stan van Nieuwamerongen",
+    "url": "http://100jaarHTS.nl"
+  },
+  "default_locale": "en"
+}

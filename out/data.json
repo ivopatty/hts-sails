@@ -1,0 +1,2596 @@
+{
+    "project": {},
+    "files": {
+        ".tmp/public/js/dependencies/sails.io.js": {
+            "name": ".tmp/public/js/dependencies/sails.io.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/controllers/ImageController.js": {
+            "name": "api/controllers/ImageController.js",
+            "modules": {},
+            "classes": {
+                "ImageController": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/controllers/MainController.js": {
+            "name": "api/controllers/MainController.js",
+            "modules": {},
+            "classes": {
+                "MainController": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/controllers/PersonController.js": {
+            "name": "api/controllers/PersonController.js",
+            "modules": {},
+            "classes": {
+                "PersonController": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/controllers/PofController.js": {
+            "name": "api/controllers/PofController.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/controllers/SettingsController.js": {
+            "name": "api/controllers/SettingsController.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/policies/sessionAuth.js": {
+            "name": "api/policies/sessionAuth.js",
+            "modules": {
+                ":: Policy": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/responses/badRequest.js": {
+            "name": "api/responses/badRequest.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/responses/forbidden.js": {
+            "name": "api/responses/forbidden.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/responses/notFound.js": {
+            "name": "api/responses/notFound.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/responses/ok.js": {
+            "name": "api/responses/ok.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "api/responses/serverError.js": {
+            "name": "api/responses/serverError.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "assets/js/dependencies/sails.io.js": {
+            "name": "assets/js/dependencies/sails.io.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/env/development.js": {
+            "name": "config/env/development.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/env/production.js": {
+            "name": "config/env/production.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/blueprints.js": {
+            "name": "config/blueprints.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/bootstrap.js": {
+            "name": "config/bootstrap.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/connections.js": {
+            "name": "config/connections.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/cors.js": {
+            "name": "config/cors.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/csrf.js": {
+            "name": "config/csrf.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/globals.js": {
+            "name": "config/globals.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/http.js": {
+            "name": "config/http.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/i18n.js": {
+            "name": "config/i18n.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/local.js": {
+            "name": "config/local.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/log.js": {
+            "name": "config/log.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/models.js": {
+            "name": "config/models.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/policies.js": {
+            "name": "config/policies.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/routes.js": {
+            "name": "config/routes.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/session.js": {
+            "name": "config/session.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/sockets.js": {
+            "name": "config/sockets.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config/views.js": {
+            "name": "config/views.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/clean.js": {
+            "name": "tasks/config/clean.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/coffee.js": {
+            "name": "tasks/config/coffee.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/concat.js": {
+            "name": "tasks/config/concat.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/copy.js": {
+            "name": "tasks/config/copy.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/cssmin.js": {
+            "name": "tasks/config/cssmin.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/jst.js": {
+            "name": "tasks/config/jst.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/less.js": {
+            "name": "tasks/config/less.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/sails-linker.js": {
+            "name": "tasks/config/sails-linker.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/sync.js": {
+            "name": "tasks/config/sync.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/uglify.js": {
+            "name": "tasks/config/uglify.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/config/watch.js": {
+            "name": "tasks/config/watch.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "tasks/pipeline.js": {
+            "name": "tasks/pipeline.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "Gruntfile.js": {
+            "name": "Gruntfile.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app.js": {
+            "name": "app.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        ":: Policy": {
+            "name": ":: Policy",
+            "submodules": {},
+            "classes": {
+                "ImageController": 1,
+                "MainController": 1,
+                "PersonController": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "api/controllers/PersonController.js",
+            "line": 1,
+            "description": "sessionAuth",
+            "docs": ":: http://sailsjs.org/#!documentation/policies"
+        }
+    },
+    "classes": {
+        "ImageController": {
+            "name": "ImageController",
+            "shortname": "ImageController",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": ":: Policy",
+            "file": "api/controllers/ImageController.js",
+            "line": 1,
+            "description": "This controller is used to send images to  the 100jaarHTS server."
+        },
+        "MainController": {
+            "name": "MainController",
+            "shortname": "MainController",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": ":: Policy",
+            "file": "api/controllers/MainController.js",
+            "line": 1,
+            "description": "This controller is main controller. The main controller renders the index page,\nand wachts the photo folder. Whene a photo is added to the folder the maincontoller sends a \nwebsocket message to the user. The photo will disapear real-time on the users screen."
+        },
+        "PersonController": {
+            "name": "PersonController",
+            "shortname": "PersonController",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": ":: Policy",
+            "file": "api/controllers/PersonController.js",
+            "line": 1,
+            "description": "Handels al the user requestes to the server and renders all the user related forms."
+        }
+    },
+    "classitems": [
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 4,
+            "description": "sails.io.js\n------------------------------------------------------------------------\nJavaScript Client (SDK) for communicating with Sails.\n\nNote that this script is completely optional, but it is handy if you're\nusing WebSockets from the browser to talk to your Sails server.\n\nFor tips and documentation, visit:\nhttp://sailsjs.org/#!documentation/reference/BrowserSDK/BrowserSDK.html\n------------------------------------------------------------------------\n\nThis file allows you to send and receive socket.io messages to & from Sails\nby simulating a REST client interface on top of socket.io. It models its API\nafter the $.ajax pattern from jQuery you might already be familiar with.\n\nSo if you're switching from using AJAX to sockets, instead of:\n   `$.post( url, [data], [cb] )`\n\nYou would use:\n   `socket.post( url, [data], [cb] )`",
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 73,
+            "description": "Augment the `io` object passed in with methods for talking and listening\nto one or more Sails backend(s).  Automatically connects a socket and\nexposes it on `io.socket`.  If a socket tries to make requests before it\nis connected, the sails.io.js client will queue it up.",
+            "params": [
+                {
+                    "name": "io",
+                    "description": "",
+                    "type": "SocketIO"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 98,
+            "description": "TmpSocket\n\nA mock Socket used for binding events before the real thing\nhas been instantiated (since we need to use io.connect() to\ninstantiate the real thing, which would kick off the connection\nprocess w/ the server, and we don't necessarily have the valid\nconfiguration to know WHICH SERVER to talk to yet.)",
+            "api": "private",
+            "is_constructor": 1,
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 163,
+            "description": "A little logger for this library to use internally.\nBasically just a wrapper around `console.log` with\nsupport for feature-detection.",
+            "api": "private",
+            "factory": "",
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 212,
+            "description": "_isConnected",
+            "api": "private",
+            "params": [
+                {
+                    "name": "socket",
+                    "description": "",
+                    "type": "Socket"
+                }
+            ],
+            "return": {
+                "description": "whether the socket is connected and able to\n                          communicate w/ the server.",
+                "type": "Boolean"
+            },
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 227,
+            "description": "What is the `requestQueue`?\n\nThe request queue is used to simplify app-level connection logic--\ni.e. so you don't have to wait for the socket to be connected\nto start trying to  synchronize data.",
+            "api": "private",
+            "params": [
+                {
+                    "name": "socket",
+                    "description": "",
+                    "type": "Socket"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 258,
+            "description": "Send an AJAX request.",
+            "params": [
+                {
+                    "name": "opts",
+                    "description": "[optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "XMLHttpRequest"
+            },
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 296,
+            "description": "The JWR (JSON WebSocket Response) received from a Sails server.",
+            "api": "private",
+            "params": [
+                {
+                    "name": "responseCtx",
+                    "description": "=> :body\n        => :statusCode\n        => :headers",
+                    "type": "Object"
+                }
+            ],
+            "is_constructor": 1,
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 331,
+            "api": "private",
+            "params": [
+                {
+                    "name": "socket",
+                    "description": "[description]",
+                    "type": "Socket"
+                },
+                {
+                    "name": "requestCtx",
+                    "description": "[description]",
+                    "type": "Object"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 379,
+            "description": "Simulate a GET request to sails\ne.g.\n   `socket.get('/user/3', Stats.populate)`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 407,
+            "description": "Simulate a POST request to sails\ne.g.\n   `socket.post('/event', newMeeting, $spinner.hide)`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 435,
+            "description": "Simulate a PUT request to sails\ne.g.\n   `socket.post('/event/3', changedFields, $spinner.hide)`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 463,
+            "description": "Simulate a DELETE request to sails\ne.g.\n   `socket.delete('/event', $spinner.hide)`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 491,
+            "description": "Simulate an HTTP request to sails\ne.g.\n   `socket.request('/user', newUser, $spinner.hide, 'post')`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                },
+                {
+                    "name": "method",
+                    "description": "::    HTTP request method [optional]",
+                    "type": "String"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 526,
+            "description": "Socket.prototype._request\n\nSimulate HTTP over Socket.io.",
+            "api": "private",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "cb",
+                    "description": "[description]",
+                    "type": "Function"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 601,
+            "description": "Override `io.connect` to coerce it into using the io.sails\nconnection URL config, as well as sending identifying information\n(most importantly, the current version of this SDK)",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "[optional]",
+                    "type": "String"
+                },
+                {
+                    "name": "opts",
+                    "description": "[optional]",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Socket"
+            },
+            "class": "ImageController"
+        },
+        {
+            "file": ".tmp/public/js/dependencies/sails.io.js",
+            "line": 713,
+            "description": "'connect' event is triggered when the socket establishes a connection\n successfully.",
+            "class": "ImageController"
+        },
+        {
+            "file": "api/controllers/ImageController.js",
+            "line": 15,
+            "description": "Organise the parameters for sending to the server and calls the sendImage function to send the photo and user to the sever.",
+            "itemtype": "method",
+            "name": "send_image",
+            "params": [
+                {
+                    "name": "person_id",
+                    "description": "The id of the person on the photo",
+                    "type": "Int"
+                },
+                {
+                    "name": "image_name",
+                    "description": "The photo file.",
+                    "type": "File"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": "api/controllers/ImageController.js",
+            "line": 40,
+            "description": "Organise the parameters for sending to the server and calls the sendImage function to create a new user and send the user photo to the server.",
+            "itemtype": "method",
+            "name": "create_and_send",
+            "params": [
+                {
+                    "name": "first_name",
+                    "description": "Users first name",
+                    "type": "String"
+                },
+                {
+                    "name": "last_name",
+                    "description": "Users last name",
+                    "type": "String"
+                },
+                {
+                    "name": "zipcode",
+                    "description": "Users zipcode",
+                    "type": "String"
+                },
+                {
+                    "name": "address",
+                    "description": "Users address",
+                    "type": "String"
+                },
+                {
+                    "name": "email",
+                    "description": "Users email",
+                    "type": "String"
+                },
+                {
+                    "name": "graduation_year",
+                    "description": "Users graduation year",
+                    "type": "Int"
+                },
+                {
+                    "name": "major",
+                    "description": "Users major",
+                    "type": "String"
+                },
+                {
+                    "name": "image_name",
+                    "description": "Users photo",
+                    "type": "File"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": "api/controllers/ImageController.js",
+            "line": 62,
+            "description": "(Helper function) Send the photo and user paramters to the server",
+            "itemtype": "method",
+            "name": "sendImage",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "The post url",
+                    "type": "String"
+                },
+                {
+                    "name": "data",
+                    "description": "user parameters",
+                    "type": "Object"
+                },
+                {
+                    "name": "image",
+                    "description": "User photo",
+                    "type": "File"
+                },
+                {
+                    "name": "token",
+                    "description": "the post validation token",
+                    "type": "String"
+                },
+                {
+                    "name": "req",
+                    "description": "Request object",
+                    "type": "Object"
+                },
+                {
+                    "name": "res",
+                    "description": "Respons object",
+                    "type": "Object"
+                }
+            ],
+            "class": "ImageController"
+        },
+        {
+            "file": "api/controllers/MainController.js",
+            "line": 35,
+            "description": "Renders the index page and send a update photo message to the client.",
+            "itemtype": "method",
+            "name": "index",
+            "class": "MainController"
+        },
+        {
+            "file": "api/controllers/PersonController.js",
+            "line": 13,
+            "description": "Sends a check person request to the 100jaarhts server. \nit redirects to the select_person path if there are multiple users with the same name.\nit redirects to thecreate_person path if there is no known user with the given name.\nit redirects to the send_image path if the given name is known and unique.",
+            "itemtype": "method",
+            "name": "check_person",
+            "params": [
+                {
+                    "name": "first_name",
+                    "description": ". The first name of the user",
+                    "type": "String"
+                },
+                {
+                    "name": "last_name",
+                    "description": ". The last name of the user",
+                    "type": "String"
+                },
+                {
+                    "name": "image_name",
+                    "description": ". The name of the photo what belongs to the user",
+                    "type": "String"
+                }
+            ],
+            "class": "PersonController"
+        },
+        {
+            "file": "api/controllers/PersonController.js",
+            "line": 62,
+            "description": "Renders the select person view",
+            "itemtype": "method",
+            "name": "select_person",
+            "class": "PersonController"
+        },
+        {
+            "file": "api/controllers/PersonController.js",
+            "line": 72,
+            "description": "Renders the create person view",
+            "itemtype": "method",
+            "name": "select_person",
+            "class": "PersonController"
+        },
+        {
+            "file": "api/controllers/PofController.js",
+            "line": 1,
+            "description": ":: Server-side logic for managing pofs",
+            "help": ":: See http://links.sailsjs.org/docs/controllers",
+            "class": ""
+        },
+        {
+            "file": "api/controllers/SettingsController.js",
+            "line": 1,
+            "description": ":: Server-side logic for managing settings",
+            "help": ":: See http://links.sailsjs.org/docs/controllers",
+            "class": ""
+        },
+        {
+            "file": "api/responses/badRequest.js",
+            "line": 1,
+            "description": "400 (Bad Request) Handler\n\nUsage:\nreturn res.badRequest();\nreturn res.badRequest(data);\nreturn res.badRequest(data, 'some/specific/badRequest/view');\n\ne.g.:\n```\nreturn res.badRequest(\n  'Please choose a valid `password` (6-12 characters)',\n  'trial/signup'\n);\n```",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "api/responses/forbidden.js",
+            "line": 1,
+            "description": "403 (Forbidden) Handler\n\nUsage:\nreturn res.forbidden();\nreturn res.forbidden(err);\nreturn res.forbidden(err, 'some/specific/forbidden/view');\n\ne.g.:\n```\nreturn res.forbidden('Access denied.');\n```",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "api/responses/notFound.js",
+            "line": 1,
+            "description": "404 (Not Found) Handler\n\nUsage:\nreturn res.notFound();\nreturn res.notFound(err);\nreturn res.notFound(err, 'some/specific/notfound/view');\n\ne.g.:\n```\nreturn res.notFound();\n```\n\nNOTE:\nIf a request doesn't match any explicit routes (i.e. `config/routes.js`)\nor route blueprints (i.e. \"shadow routes\", Sails will call `res.notFound()`\nautomatically.",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "api/responses/ok.js",
+            "line": 1,
+            "description": "200 (OK) Response\n\nUsage:\nreturn res.ok();\nreturn res.ok(data);\nreturn res.ok(data, 'auth/login');",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "options",
+                    "description": "- pass string to render specified view",
+                    "type": "String|Object"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "api/responses/serverError.js",
+            "line": 1,
+            "description": "500 (Server Error) Response\n\nUsage:\nreturn res.serverError();\nreturn res.serverError(err);\nreturn res.serverError(err, 'some/specific/error/view');\n\nNOTE:\nIf something throws in a policy or controller, or an internal\nerror is encountered, Sails will call `res.serverError()`\nautomatically.",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 4,
+            "description": "sails.io.js\n------------------------------------------------------------------------\nJavaScript Client (SDK) for communicating with Sails.\n\nNote that this script is completely optional, but it is handy if you're\nusing WebSockets from the browser to talk to your Sails server.\n\nFor tips and documentation, visit:\nhttp://sailsjs.org/#!documentation/reference/BrowserSDK/BrowserSDK.html\n------------------------------------------------------------------------\n\nThis file allows you to send and receive socket.io messages to & from Sails\nby simulating a REST client interface on top of socket.io. It models its API\nafter the $.ajax pattern from jQuery you might already be familiar with.\n\nSo if you're switching from using AJAX to sockets, instead of:\n   `$.post( url, [data], [cb] )`\n\nYou would use:\n   `socket.post( url, [data], [cb] )`",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 73,
+            "description": "Augment the `io` object passed in with methods for talking and listening\nto one or more Sails backend(s).  Automatically connects a socket and\nexposes it on `io.socket`.  If a socket tries to make requests before it\nis connected, the sails.io.js client will queue it up.",
+            "params": [
+                {
+                    "name": "io",
+                    "description": "",
+                    "type": "SocketIO"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 98,
+            "description": "TmpSocket\n\nA mock Socket used for binding events before the real thing\nhas been instantiated (since we need to use io.connect() to\ninstantiate the real thing, which would kick off the connection\nprocess w/ the server, and we don't necessarily have the valid\nconfiguration to know WHICH SERVER to talk to yet.)",
+            "api": "private",
+            "is_constructor": 1,
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 163,
+            "description": "A little logger for this library to use internally.\nBasically just a wrapper around `console.log` with\nsupport for feature-detection.",
+            "api": "private",
+            "factory": "",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 212,
+            "description": "_isConnected",
+            "api": "private",
+            "params": [
+                {
+                    "name": "socket",
+                    "description": "",
+                    "type": "Socket"
+                }
+            ],
+            "return": {
+                "description": "whether the socket is connected and able to\n                          communicate w/ the server.",
+                "type": "Boolean"
+            },
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 227,
+            "description": "What is the `requestQueue`?\n\nThe request queue is used to simplify app-level connection logic--\ni.e. so you don't have to wait for the socket to be connected\nto start trying to  synchronize data.",
+            "api": "private",
+            "params": [
+                {
+                    "name": "socket",
+                    "description": "",
+                    "type": "Socket"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 258,
+            "description": "Send an AJAX request.",
+            "params": [
+                {
+                    "name": "opts",
+                    "description": "[optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "XMLHttpRequest"
+            },
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 296,
+            "description": "The JWR (JSON WebSocket Response) received from a Sails server.",
+            "api": "private",
+            "params": [
+                {
+                    "name": "responseCtx",
+                    "description": "=> :body\n        => :statusCode\n        => :headers",
+                    "type": "Object"
+                }
+            ],
+            "is_constructor": 1,
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 331,
+            "api": "private",
+            "params": [
+                {
+                    "name": "socket",
+                    "description": "[description]",
+                    "type": "Socket"
+                },
+                {
+                    "name": "requestCtx",
+                    "description": "[description]",
+                    "type": "Object"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 379,
+            "description": "Simulate a GET request to sails\ne.g.\n   `socket.get('/user/3', Stats.populate)`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 407,
+            "description": "Simulate a POST request to sails\ne.g.\n   `socket.post('/event', newMeeting, $spinner.hide)`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 435,
+            "description": "Simulate a PUT request to sails\ne.g.\n   `socket.post('/event/3', changedFields, $spinner.hide)`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 463,
+            "description": "Simulate a DELETE request to sails\ne.g.\n   `socket.delete('/event', $spinner.hide)`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 491,
+            "description": "Simulate an HTTP request to sails\ne.g.\n   `socket.request('/user', newUser, $spinner.hide, 'post')`",
+            "api": "public",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "::    destination URL",
+                    "type": "String"
+                },
+                {
+                    "name": "params",
+                    "description": "::    parameters to send with the request [optional]",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "::    callback function to call when finished [optional]",
+                    "type": "Function"
+                },
+                {
+                    "name": "method",
+                    "description": "::    HTTP request method [optional]",
+                    "type": "String"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 526,
+            "description": "Socket.prototype._request\n\nSimulate HTTP over Socket.io.",
+            "api": "private",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "cb",
+                    "description": "[description]",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 601,
+            "description": "Override `io.connect` to coerce it into using the io.sails\nconnection URL config, as well as sending identifying information\n(most importantly, the current version of this SDK)",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "[optional]",
+                    "type": "String"
+                },
+                {
+                    "name": "opts",
+                    "description": "[optional]",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Socket"
+            },
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "assets/js/dependencies/sails.io.js",
+            "line": 713,
+            "description": "'connect' event is triggered when the socket establishes a connection\n successfully.",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/env/development.js",
+            "line": 1,
+            "description": "Development environment settings\n\nThis file can include shared settings for a development team,\nsuch as API keys or remote database passwords.  If you're using\na version control solution for your Sails app, this file will\nbe committed to your repository unless you add it to your .gitignore\nfile.  If your repository will be publicly viewable, don't add\nany private information to this file!",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/env/development.js",
+            "line": 15,
+            "description": "Set the default database connection for models in the development       *\nenvironment (see config/connections.js and config/models.js )           *",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/env/production.js",
+            "line": 1,
+            "description": "Production environment settings\n\nThis file can include shared settings for a production environment,\nsuch as API keys or remote database passwords.  If you're using\na version control solution for your Sails app, this file will\nbe committed to your repository unless you add it to your .gitignore\nfile.  If your repository will be publicly viewable, don't add\nany private information to this file!",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/env/production.js",
+            "line": 15,
+            "description": "Set the default database connection for models in the production        *\nenvironment (see config/connections.js and config/models.js )           *",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/env/production.js",
+            "line": 24,
+            "description": "Set the port in the production environment to 80                        *",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/env/production.js",
+            "line": 30,
+            "description": "Set the log level in production environment to \"silent\"                 *",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 1,
+            "description": "Blueprint API Configuration\n(sails.config.blueprints)\n\nThese settings are for the global configuration of blueprint routes and\nrequest options (which impact the behavior of blueprint actions).\n\nYou may also override any of these settings on a per-controller basis\nby defining a '_config' key in your controller defintion, and assigning it\na configuration object with overrides for the settings in this file.\nA lot of the configuration options below affect so-called \"CRUD methods\",\nor your controllers' `find`, `create`, `update`, and `destroy` actions.\n\nIt's important to realize that, even if you haven't defined these yourself, as long as\na model exists with the same name as the controller, Sails will respond with built-in CRUD\nlogic in the form of a JSON API, including support for sort, pagination, and filtering.\n\nFor more information on the blueprint API, check out:\nhttp://sailsjs.org/#/documentation/reference/blueprint-api\n\nFor more information on the settings in this file, see:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.blueprints.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 28,
+            "description": "*\n Action routes speed up the backend development workflow by               *\n eliminating the need to manually bind routes. When enabled, GET, POST,   *\n PUT, and DELETE routes will be generated for every one of a controller's *\n actions.                                                                 *\n*\n If an `index` action exists, additional naked routes will be created for *\n it. Finally, all `actions` blueprints support an optional path           *\n parameter, `id`, for convenience.                                        *\n*\n `actions` are enabled by default, and can be OK for production--         *\n however, if you'd like to continue to use controller/action autorouting  *\n in a production deployment, you must take great care not to              *\n inadvertently expose unsafe/unintentional controller logic to GET        *\n requests.                                                                *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 49,
+            "description": "*\n RESTful routes (`sails.config.blueprints.rest`)                          *\n*\n REST blueprints are the automatically generated routes Sails uses to     *\n expose a conventional REST API on top of a controller's `find`,          *\n `create`, `update`, and `destroy` actions.                               *\n*\n For example, a BoatController with `rest` enabled generates the          *\n following routes:                                                        *\n :::::::::::::::::::::::::::::::::::::::::::::::::::::::                  *\n  GET /boat/:id? -> BoatController.find                                   *\n  POST /boat -> BoatController.create                                     *\n  PUT /boat/:id -> BoatController.update                                  *\n  DELETE /boat/:id -> BoatController.destroy                              *\n*\n `rest` blueprint routes are enabled by default, and are suitable for use *\n in a production scenario, as long you take standard security precautions *\n (combine w/ policies, etc.)                                              *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 73,
+            "description": "*\n Shortcut routes are simple helpers to provide access to a                *\n controller's CRUD methods from your browser's URL bar. When enabled,     *\n GET, POST, PUT, and DELETE routes will be generated for the              *\n controller's`find`, `create`, `update`, and `destroy` actions.           *\n*\n `shortcuts` are enabled by default, but should be disabled in            *\n production.                                                              *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 87,
+            "description": "*\n An optional mount path for all blueprint routes on a controller,         *\n including `rest`, `actions`, and `shortcuts`. This allows you to take    *\n advantage of blueprint routing, even if you need to namespace your API   *\n methods.                                                                 *\n*\n (NOTE: This only applies to blueprint autoroutes, not manual routes from *\n `sails.config.routes`)                                                   *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 101,
+            "description": "*\n Whether to pluralize controller names in blueprint routes.               *\n*\n (NOTE: This only applies to blueprint autoroutes, not manual routes from *\n `sails.config.routes`)                                                   *\n*\n For example, REST blueprints for `FooController` with `pluralize`        *\n enabled:                                                                 *\n GET /foos/:id?                                                           *\n POST /foos                                                               *\n PUT /foos/:id?                                                           *\n DELETE /foos/:id?                                                        *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 119,
+            "description": "*\n Whether the blueprint controllers should populate model fetches with     *\n data from other models which are linked by associations                  *\n*\n If you have a lot of data in one-to-many associations, leaving this on   *\n may result in very heavy api calls                                       *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 131,
+            "description": "*\n Whether to run Model.watch() in the find and findOne blueprint actions.   *\n Can be overridden on a per-model basis.                                   *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/blueprints.js",
+            "line": 140,
+            "description": "*\n The default number of records to show in the response from a \"find\"       *\n action. Doubles as the default size of populated arrays if populate is    *\n true.                                                                     *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/bootstrap.js",
+            "line": 1,
+            "description": "Bootstrap\n(sails.config.bootstrap)\n\nAn asynchronous bootstrap function that runs before your Sails app gets lifted.\nThis gives you an opportunity to set up your data model, run jobs, or perform some special logic.\n\nFor more information on bootstrapping your app, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.bootstrap.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/connections.js",
+            "line": 1,
+            "description": "Connections\n(sails.config.connections)\n\n`Connections` are like \"saved settings\" for your adapters.  What's the difference between\na connection and an adapter, you might ask?  An adapter (e.g. `sails-mysql`) is generic--\nit needs some additional information to work (e.g. your database host, password, user, etc.)\nA `connection` is that additional information.\n\nEach model must have a `connection` property (a string) which is references the name of one\nof these connections.  If it doesn't, the default `connection` configured in `config/models.js`\nwill be applied.  Of course, a connection can (and usually is) shared by multiple models.\n.\nNote: If you're using version control, you should put your passwords/api keys\nin `config/local.js`, environment variables, or use another strategy.\n(this is to prevent you inadvertently sensitive credentials up to your repository.)\n\nFor more information on configuration, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.connections.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/connections.js",
+            "line": 24,
+            "description": "*\n Local disk storage for DEVELOPMENT ONLY                                  *\n*\n Installed by default.                                                    *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/connections.js",
+            "line": 35,
+            "description": "*\n MySQL is the world's most popular relational database.                   *\n http://en.wikipedia.org/wiki/MySQL                                       *\n*\n Run: npm install sails-mysql                                             *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/connections.js",
+            "line": 51,
+            "description": "*\n MongoDB is the leading NoSQL database.                                   *\n http://en.wikipedia.org/wiki/MongoDB                                     *\n*\n Run: npm install sails-mongo                                             *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/connections.js",
+            "line": 68,
+            "description": "*\n PostgreSQL is another officially supported relational database.          *\n http://en.wikipedia.org/wiki/PostgreSQL                                  *\n*\n Run: npm install sails-postgresql                                        *\n*\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/connections.js",
+            "line": 86,
+            "description": "*\n More adapters: https://github.com/balderdashy/sails                      *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/cors.js",
+            "line": 1,
+            "description": "Cross-Origin Resource Sharing (CORS) Settings\n(sails.config.cors)\n\nCORS is like a more modern version of JSONP-- it allows your server/API\nto successfully respond to requests from client-side JavaScript code\nrunning on some other domain (e.g. google.com)\nUnlike JSONP, it works with POST, PUT, and DELETE requests\n\nFor more information on CORS, check out:\nhttp://en.wikipedia.org/wiki/Cross-origin_resource_sharing\n\nNote that any of these settings (besides 'allRoutes') can be changed on a per-route basis\nby adding a \"cors\" object to the route configuration:\n\n'/get foo': {\n  controller: 'foo',\n  action: 'bar',\n  cors: {\n    origin: 'http://foobar.com,https://owlhoot.com'\n  }\n }\n\n For more information on this configuration file, see:\n http://sailsjs.org/#/documentation/reference/sails.config/sails.config.cors.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/cors.js",
+            "line": 31,
+            "description": "*\n Allow CORS on all routes by default? If not, you must enable CORS on a   *\n per-route basis by either adding a \"cors\" configuration object to the    *\n route config, or setting \"cors:true\" in the route config to use the      *\n default settings below.                                                  *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/cors.js",
+            "line": 42,
+            "description": "*\n Which domains which are allowed CORS access? This can be a               *\n comma-delimited list of hosts (beginning with http:// or https://) or    *\n \"*\" to allow all domains CORS access.                                    *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/cors.js",
+            "line": 52,
+            "description": "*\n Allow cookies to be shared for CORS requests?                            *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/cors.js",
+            "line": 60,
+            "description": "*\n Which methods should be allowed for CORS requests? This is only used in  *\n response to preflight requests (see article linked above for more info)  *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/cors.js",
+            "line": 69,
+            "description": "*\n Which headers should be allowed for CORS requests? This is only used in  *\n response to preflight requests.                                          *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/csrf.js",
+            "line": 1,
+            "description": "Cross-Site Request Forgery Protection Settings\n(sails.config.csrf)\n\nCSRF tokens are like a tracking chip.  While a session tells the server that a user\n\"is who they say they are\", a csrf token tells the server \"you are where you say you are\".\n\nWhen enabled, all non-GET requests to the Sails server must be accompanied by\na special token, identified as the '_csrf' parameter.\n\nThis option protects your Sails app against cross-site request forgery (or CSRF) attacks.\nA would-be attacker needs not only a user's session cookie, but also this timestamped,\nsecret CSRF token, which is refreshed/granted when the user visits a URL on your app's domain.\n\nThis allows us to have certainty that our users' requests haven't been hijacked,\nand that the requests they're making are intentional and legitimate.\n\nThis token has a short-lived expiration timeline, and must be acquired by either:\n\n(a)\t\tFor traditional view-driven web apps:\n\t\t\tFetching it from one of your views, where it may be accessed as\n\t\t\ta local variable, e.g.:\n\t\t\t<form>\n\t\t\t\t<input type=\"hidden\" name=\"_csrf\" value=\"<%= _csrf %>\" />\n\t\t\t</form>\n\nor (b)\tFor AJAX/Socket-heavy and/or single-page apps:\n\t\t\tSending a GET request to the `/csrfToken` route, where it will be returned\n\t\t\tas JSON, e.g.:\n\t\t\t{ _csrf: 'ajg4JD(JGdajhLJALHDa' }\n\n\nEnabling this option requires managing the token in your front-end app.\nFor traditional web apps, it's as easy as passing the data from a view into a form action.\nIn AJAX/Socket-heavy apps, just send a GET request to the /csrfToken route to get a valid token.\n\nFor more information on CSRF, check out:\nhttp://en.wikipedia.org/wiki/Cross-site_request_forgery\n\nFor more information on this configuration file, including info on CSRF + CORS, see:\nhttp://beta.sailsjs.org/#/documentation/reference/sails.config/sails.config.csrf.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/csrf.js",
+            "line": 45,
+            "description": "*\n Enabled CSRF protection for your site?                                    *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/csrf.js",
+            "line": 53,
+            "description": "*\n You may also specify more fine-grained settings for CSRF, including the   *\n domains which are allowed to request the CSRF token via AJAX. These       *\n settings override the general CORS settings in your config/cors.js file.  *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/globals.js",
+            "line": 1,
+            "description": "Global Variable Configuration\n(sails.config.globals)\n\nConfigure which global variables which will be exposed\nautomatically by Sails.\n\nFor more information on configuration, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.globals.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/globals.js",
+            "line": 13,
+            "description": "*\n Expose the lodash installed in Sails core as a global variable. If this   *\n is disabled, like any other node module you can always run npm install    *\n lodash --save, then var _ = require('lodash') at the top of any file.     *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/globals.js",
+            "line": 23,
+            "description": "*\n Expose the async installed in Sails core as a global variable. If this is *\n disabled, like any other node module you can always run npm install async *\n --save, then var async = require('async') at the top of any file.         *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/globals.js",
+            "line": 33,
+            "description": "*\n Expose the sails instance representing your app. If this is disabled, you *\n can still get access via req._sails.                                      *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/globals.js",
+            "line": 42,
+            "description": "*\n Expose each of your app's services as global variables (using their       *\n \"globalId\"). E.g. a service defined in api/models/NaturalLanguage.js      *\n would have a globalId of NaturalLanguage by default. If this is disabled, *\n you can still access your services via sails.services.*                   *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/globals.js",
+            "line": 53,
+            "description": "*\n Expose each of your app's models as global variables (using their         *\n \"globalId\"). E.g. a model defined in api/models/User.js would have a      *\n globalId of User by default. If this is disabled, you can still access    *\n your models via sails.models.*.                                           *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/http.js",
+            "line": 1,
+            "description": "HTTP Server Settings\n(sails.config.http)\n\nConfiguration for the underlying HTTP server in Sails.\nOnly applies to HTTP requests (not WebSockets)\n\nFor more information on configuration, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.http.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/http.js",
+            "line": 14,
+            "description": "*\n Express middleware to use for every Sails request. To add custom          *\n middleware to the mix, add a function to the middleware config object and *\n add its key to the \"order\" array. The $custom key is reserved for         *\n backwards-compatibility with Sails v0.9.x apps that use the               *\n `customMiddleware` config option.                                         *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/http.js",
+            "line": 26,
+            "description": "*\n The order in which middleware should be run for HTTP request. (the Sails *\n router is invoked by the \"router\" middleware below.)                     *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/http.js",
+            "line": 51,
+            "description": "*\n Example custom middleware; logs each request to the console.              *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/http.js",
+            "line": 63,
+            "description": "*\n The body parser that will handle incoming multipart HTTP requests. By    *\n default as of v0.10, Sails uses                                          *\n [skipper](http://github.com/balderdashy/skipper). See                    *\n http://www.senchalabs.org/connect/multipart.html for other options.      *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/http.js",
+            "line": 76,
+            "description": "*\n The number of seconds to cache flat files on disk being served by        *\n Express static middleware (by default, these files are in `.tmp/public`) *\n*\n The HTTP static cache is only active in a 'production' environment,      *\n since that's the only time Express will cache flat-files.                *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/i18n.js",
+            "line": 1,
+            "description": "Internationalization / Localization Settings\n(sails.config.i18n)\n\nIf your app will touch people from all over the world, i18n (or internationalization)\nmay be an important part of your international strategy.\n\n\nFor more informationom i18n in Sails, check out:\nhttp://sailsjs.org/#/documentation/concepts/Internationalization\n\nFor a complete list of i18n options, see:\nhttps://github.com/mashpie/i18n-node#list-of-configuration-options",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/i18n.js",
+            "line": 20,
+            "description": "*\n Which locales are supported?                                             *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/i18n.js",
+            "line": 28,
+            "description": "*\n What is the default locale for the site? Note that this setting will be   *\n overridden for any request that sends an \"Accept-Language\" header (i.e.   *\n most browsers), but it's still useful if you need to localize the         *\n response for requests made by non-browser clients (e.g. cURL).            *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/i18n.js",
+            "line": 39,
+            "description": "*\n Automatically add new keys to locale (translation) files when they are    *\n encountered during a request?                                             *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/i18n.js",
+            "line": 48,
+            "description": "*\n Path (relative to app root) of directory to store locale (translation)    *\n files in.                                                                 *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/local.js",
+            "line": 1,
+            "description": "Local environment settings\n\nUse this file to specify configuration settings for use while developing\nthe app on your personal system: for example, this would be a good place\nto store database or email passwords that apply only to you, and shouldn't\nbe shared with others in your organization.\n\nThese settings take precedence over all other config files, including those\nin the env/ subfolder.\n\nPLEASE NOTE:\n\t\tlocal.js is included in your .gitignore, so if you're using git\n\t\tas a version control solution for your Sails app, keep in mind that\n\t\tthis file won't be committed to your repository!\n\n\t\tGood news is, that means you can specify configuration for your local\n\t\tmachine in this file without inadvertently committing personal information\n\t\t(like database passwords) to the repo.  Plus, this prevents other members\n\t\tof your team from commiting their local configuration changes on top of yours.\n\n   In a production environment, you probably want to leave this file out\n   entirely and leave all your settings in env/production.js\n\n\nFor more information, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.local.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/local.js",
+            "line": 32,
+            "description": "Your SSL certificate and key, if you want to be able to serve HTTP      *\nresponses over https:// and/or use websockets over the wss:// protocol  *\n(recommended for HTTP, strongly encouraged for WebSockets)              *\n                                                                        *\nIn this example, we'll assume you created a folder in your project,     *\n`config/ssl` and dumped your certificate/key files there:               *",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/local.js",
+            "line": 47,
+            "description": "The `port` setting determines which TCP port your app will be           *\ndeployed on.                                                            *\n                                                                        *\nPorts are a transport-layer concept designed to allow many different    *\nnetworking applications run at the same time on a single computer.      *\nMore about ports:                                                       *\nhttp://en.wikipedia.org/wiki/Port_(computer_networking)                 *\n                                                                        *\nBy default, if it's set, Sails uses the `PORT` environment variable.    *\nOtherwise it falls back to port 1337.                                   *\n                                                                        *\nIn env/production.js, you'll probably want to change this setting       *\nto 80 (http://) or 443 (https://) if you have an SSL certificate        *",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/local.js",
+            "line": 65,
+            "description": "The runtime \"environment\" of your Sails app is either typically         *\n'development' or 'production'.                                          *\n                                                                        *\nIn development, your Sails app will go out of its way to help you       *\n(for instance you will receive more descriptive error and               *\ndebugging output)                                                       *\n                                                                        *\nIn production, Sails configures itself (and its dependencies) to        *\noptimize performance. You should always put your app in production mode *\nbefore you deploy it to a server.  This helps ensure that your Sails    *\napp remains stable, performant, and scalable.                           *\n                                                                        *\nBy default, Sails sets its environment using the `NODE_ENV` environment *\nvariable.  If NODE_ENV is not set, Sails will run in the                *\n'development' environment.                                              *",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/log.js",
+            "line": 1,
+            "description": "Built-in Log Configuration\n(sails.config.log)\n\nConfigure the log level for your app, as well as the transport\n(Underneath the covers, Sails uses Winston for logging, which\nallows for some pretty neat custom transports/adapters for log messages)\n\nFor more information on the Sails logger, check out:\nhttp://sailsjs.org/#/documentation/concepts/Logging",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/log.js",
+            "line": 15,
+            "description": "*\n Valid `level` configs: i.e. the minimum log level to capture with        *\n sails.log.*()                                                            *\n*\n The order of precedence for log levels from lowest to highest is:        *\n silly, verbose, info, debug, warn, error                                 *\n*\n You may also set the level to \"silent\" to suppress all logs.             *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/models.js",
+            "line": 1,
+            "description": "Default model configuration\n(sails.config.models)\n\nUnless you override them, the following properties will be included\nin each of your models.\n\nFor more info on Sails models, see:\nhttp://sailsjs.org/#/documentation/concepts/ORM",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/models.js",
+            "line": 14,
+            "description": "*\n Your app's default connection. i.e. the name of one of your app's        *\n connections (see `config/connections.js`)                                *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/models.js",
+            "line": 22,
+            "description": "*\n How and whether Sails will attempt to automatically rebuild the          *\n tables/collections/etc. in your schema.                                  *\n*\n See http://sailsjs.org/#/documentation/concepts/ORM/model-settings.html  *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/policies.js",
+            "line": 1,
+            "description": "Policy Mappings\n(sails.config.policies)\n\nPolicies are simple functions which run **before** your controllers.\nYou can apply one or more policies to a given controller, or protect\nits actions individually.\n\nAny policy file (e.g. `api/policies/authenticated.js`) can be accessed\nbelow by its filename, minus the extension, (e.g. \"authenticated\")\n\nFor more information on how policies work, see:\nhttp://sailsjs.org/#/documentation/concepts/Policies\n\nFor more information on configuring policies, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.policies.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/policies.js",
+            "line": 22,
+            "description": "*\n Default policy for all controllers and actions (`true` allows public     *\n access)                                                                  *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/policies.js",
+            "line": 31,
+            "description": "*\n Here's an example of mapping some policies to run before a controller    *\n and its actions                                                          *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/routes.js",
+            "line": 1,
+            "description": "Route Mappings\n(sails.config.routes)\n\nYour routes map URLs to views and controllers.\n\nIf Sails receives a URL that doesn't match any of the routes below,\nit will check for matching files (images, scripts, stylesheets, etc.)\nin your assets directory.  e.g. `http://localhost:1337/images/foo.jpg`\nmight match an image file: `/assets/images/foo.jpg`\n\nFinally, if those don't match either, the default 404 handler is triggered.\nSee `api/responses/notFound.js` to adjust your app's 404 logic.\n\nNote: Sails doesn't ACTUALLY serve stuff from `assets`-- the default Gruntfile in Sails copies\nflat files from `assets` to `.tmp/public`.  This allows you to do things like compile LESS or\nCoffeeScript for the front-end.\n\nFor more information on configuring custom routes, check out:\nhttp://sailsjs.org/#/documentation/concepts/Routes/RouteTargetSyntax.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/routes.js",
+            "line": 25,
+            "description": "*\n Make the view located at `views/homepage.ejs` (or `views/homepage.jade`, *\n etc. depending on your default view engine) your home page.              *\n*\n (Alternatively, remove this and add an `index.html` file in your         *\n `assets` directory)                                                      *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/routes.js",
+            "line": 68,
+            "description": "*\n Custom routes here...                                                    *\n*\n  If a request to a URL doesn't match any of the custom routes above, it  *\n is matched against Sails route blueprints. See `config/blueprints.js`    *\n for configuration options and examples.                                  *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/session.js",
+            "line": 1,
+            "description": "Session Configuration\n(sails.config.session)\n\nSails session integration leans heavily on the great work already done by\nExpress, but also unifies Socket.io with the Connect session store. It uses\nConnect's cookie parser to normalize configuration differences between Express\nand Socket.io and hooks into Sails' middleware interpreter to allow you to access\nand auto-save to `req.session` with Socket.io the same way you would with Express.\n\nFor more information on configuring the session, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.session.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/session.js",
+            "line": 17,
+            "description": "*\n Session secret is automatically generated when your new app is created   *\n Replace at your own risk in production-- you will invalidate the cookies *\n of your users, forcing them to log in again.                             *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/session.js",
+            "line": 27,
+            "description": "*\n Set the session cookie expire time The maxAge is set by milliseconds,    *\n the example below is for 24 hours                                        *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/session.js",
+            "line": 38,
+            "description": "*\n In production, uncomment the following lines to set up a shared redis    *\n session store that can be shared across multiple Sails.js servers        *",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/session.js",
+            "line": 46,
+            "description": "*\n The following values are optional, if no options are set a redis         *\n instance running on localhost is expected. Read more about options at:   *\n https://github.com/visionmedia/connect-redis                             *\n*\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/session.js",
+            "line": 63,
+            "description": "*\n Uncomment the following lines to use your Mongo adapter as a session     *\n store                                                                    *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/session.js",
+            "line": 76,
+            "description": "*\n Optional Values:                                                         *\n*\n # Note: url will override other connection settings url:                 *\n 'mongodb://user:pass@host:port/database/collection',                     *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 1,
+            "description": "WebSocket Server Settings\n(sails.config.sockets)\n\nThese settings provide transparent access to the options for Sails'\nencapsulated WebSocket server, as well as some additional Sails-specific\nconfiguration layered on top.\n\nFor more information on sockets configuration, including advanced config options, see:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.sockets.html",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 15,
+            "description": "*\n This custom onConnect function will be run each time AFTER a new socket  *\n connects (To control whether a socket is allowed to connect, check out   *\n `authorization` config.) Keep in mind that Sails' RESTful simulation for *\n sockets mixes in socket.io events for your routes and blueprints         *\n automatically.                                                           *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 31,
+            "description": "*\n This custom onDisconnect function will be run each time a socket         *\n disconnects                                                              *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 43,
+            "description": "*\n `transports`                                                             *\n*\n A array of allowed transport methods which the clients will try to use.  *\n The flashsocket transport is disabled by default You can enable          *\n flashsockets by adding 'flashsocket' to this list:                       *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 59,
+            "description": "*\n Use this option to set the datastore socket.io will use to manage        *\n rooms/sockets/subscriptions: default: memory                             *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 68,
+            "description": "*\n Node.js (and consequently Sails.js) apps scale horizontally. It's a      *\n powerful, efficient approach, but it involves a tiny bit of planning. At *\n scale, you'll want to be able to copy your app onto multiple Sails.js    *\n servers and throw them behind a load balancer.                           *\n*\n One of the big challenges of scaling an application is that these sorts  *\n of clustered deployments cannot share memory, since they are on          *\n physically different machines. On top of that, there is no guarantee     *\n that a user will \"stick\" with the same server between requests (whether  *\n HTTP or sockets), since the load balancer will route each request to the *\n Sails server with the most available resources. However that means that  *\n all room/pubsub/socket processing and shared memory has to be offloaded  *\n to a shared, remote messaging queue (usually Redis)                      *\n*\n Luckily, Socket.io (and consequently Sails.js) apps support Redis for    *\n sockets by default. To enable a remote redis pubsub server, uncomment    *\n the config below.                                                        *\n*\n Worth mentioning is that, if `adapter` config is `redis`, but host/port  *\n is left unset, Sails will try to connect to redis running on localhost   *\n via port 6379                                                            *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 101,
+            "description": "*\n `authorization`                                                          *\n*\n Global authorization for Socket.IO access, this is called when the       *\n initial handshake is performed with the server.                          *\n*\n By default (`authorization: false`), when a socket tries to connect,     *\n Sails allows it, every time. If no valid cookie was sent, a temporary    *\n session will be created for the connecting socket.                       *\n*\n If `authorization: true`, before allowing a connection, Sails verifies   *\n that a valid cookie was sent with the upgrade request. If the cookie     *\n doesn't match any known user session, a new user session is created for  *\n it. (In most cases, the user would already have a cookie since they      *\n loaded the socket.io client and the initial HTML page.)                  *\n*\n However, in the case of cross-domain requests, it is possible to receive *\n a connection upgrade request WITHOUT A COOKIE (for certain transports)   *\n In this case, there is no way to keep track of the requesting user       *\n between requests, since there is no identifying information to link      *\n him/her with a session. The sails.io.js client solves this by connecting *\n to a CORS endpoint first to get a 3rd party cookie (fortunately this     *\n works, even in Safari), then opening the connection.                     *\n*\n You can also pass along a ?cookie query parameter to the upgrade url,    *\n which Sails will use in the absense of a proper cookie e.g. (when        *\n connection from the client):                                             *\n io.connect('http://localhost:1337?cookie=smokeybear')                    *\n*\n (Un)fortunately, the user's cookie is (should!) not accessible in        *\n client-side js. Using HTTP-only cookies is crucial for your app's        *\n security. Primarily because of this situation, as well as a handful of   *\n other advanced use cases, Sails allows you to override the authorization *\n behavior with your own custom logic by specifying a function, e.g:       *\n*\n    authorization: function authSocketConnectionAttempt(reqObj, cb) {     *\n*\n        // Any data saved in `handshake` is available in subsequent       *\n        requests from this as `req.socket.handshake.*`                    *\n*\n        // to allow the connection, call `cb(null, true)`                 *\n        // to prevent the connection, call `cb(null, false)`              *\n        // to report an error, call `cb(err)`                             *\n     }                                                                    *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 151,
+            "description": "*\n Whether to run code which supports legacy usage for connected sockets    *\n running the v0.9 version of the socket client SDK (i.e. sails.io.js).    *\n Disabled in newly generated projects, but enabled as an implicit default *\n (i.e. legacy usage/v0.9 clients be supported if this property is set to  *\n true, but also if it is removed from this configuration file or set to   *\n `undefined`)                                                             *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 164,
+            "description": "*\n Whether to expose a 'get /__getcookie' route with CORS support that sets *\n a cookie (this is used by the sails.io.js socket client to get access to *\n a 3rd party cookie and to enable sessions).                              *\n*\n Warning: Currently in this scenario, CORS settings apply to interpreted  *\n requests sent via a socket.io connection that used this cookie to        *\n connect, even for non-browser clients! (e.g. iOS apps, toasters, node.js *\n unit tests)                                                              *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/sockets.js",
+            "line": 179,
+            "description": "*\n Match string representing the origins that are allowed to connect to the *\n Socket.IO server                                                         *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/views.js",
+            "line": 1,
+            "description": "View Engine Configuration\n(sails.config.views)\n\nServer-sent views are a classic and effective way to get your app up\nand running. Views are normally served from controllers.  Below, you can\nconfigure your templating language/framework of choice and configure\nSails' layout support.\n\nFor more information on views and layouts, check out:\nhttp://sailsjs.org/#/documentation/concepts/Views",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/views.js",
+            "line": 16,
+            "description": "*\n View engine (aka template language) to use for your app's *server-side*   *\n views                                                                     *\n*\n Sails+Express supports all view engines which implement TJ Holowaychuk's  *\n `consolidate.js`, including, but not limited to:                          *\n*\n ejs, jade, handlebars, mustache underscore, hogan, haml, haml-coffee,     *\n dust atpl, eco, ect, jazz, jqtpl, JUST, liquor, QEJS, swig, templayed,    *\n toffee, walrus, & whiskers                                                *\n*\n For more options, check out the docs:                                     *\n https://github.com/balderdashy/sails-wiki/blob/0.9/config.views.md#engine *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/views.js",
+            "line": 36,
+            "description": "*\n Layouts are simply top-level HTML templates you can use as wrappers for   *\n your server-side views. If you're using ejs or jade, you can take         *\n advantage of Sails' built-in `layout` support.                            *\n*\n When using a layout, when one of your views is served, it is injected     *\n into the `body` partial defined in the layout. This lets you reuse header *\n and footer logic between views.                                           *\n*\n NOTE: Layout support is only implemented for the `ejs` view engine!       *\n       For most other engines, it is not necessary, since they implement   *\n       partials/layouts themselves. In those cases, this config will be    *\n       silently ignored.                                                   *\n*\n The `layout` setting may be set to one of the following:                  *\n*\n If `false`, layouts will be disabled. Otherwise, if a string is           *\n specified, it will be interpreted as the relative path to your layout     *\n file from `views/` folder. (the file extension, \".ejs\", should be         *\n omitted)                                                                  *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "config/views.js",
+            "line": 62,
+            "description": "*\n Using Multiple Layouts with EJS                                           *\n*\n If you're using the default engine, `ejs`, Sails supports the use of      *\n multiple `layout` files. To take advantage of this, before rendering a    *\n view, override the `layout` local in your controller by setting           *\n `res.locals.layout`. (this is handy if you parts of your app's UI look    *\n completely different from each other)                                     *\n*\n e.g. your default might be                                                *\n layout: 'layouts/public'                                                  *\n*\n But you might override that in some of your controllers with:             *\n layout: 'layouts/internal'                                                *\n*",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/clean.js",
+            "line": 1,
+            "description": "Clean files and folders.\n\n---------------------------------------------------------------\n\nThis grunt task is configured to clean out the contents in the .tmp/public of your\nsails project.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-clean",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/coffee.js",
+            "line": 1,
+            "description": "Compile CoffeeScript files to JavaScript.\n\n---------------------------------------------------------------\n\nCompiles coffeeScript files from `assest/js` into Javascript and places them into\n`.tmp/public/js` directory.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-coffee",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/concat.js",
+            "line": 1,
+            "description": "Concatenate files.\n\n---------------------------------------------------------------\n\nConcatenates files javascript and css from a defined array. Creates concatenated files in\n.tmp/public/contact directory\n[concat](https://github.com/gruntjs/grunt-contrib-concat)\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-concat",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/copy.js",
+            "line": 1,
+            "description": "Copy files and folders.\n\n---------------------------------------------------------------\n\n# dev task config\nCopies all directories and files, exept coffescript and less fiels, from the sails\nassets folder into the .tmp/public directory.\n\n# build task config\nCopies all directories nd files from the .tmp/public directory into a www directory.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-copy",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/cssmin.js",
+            "line": 1,
+            "description": "Compress CSS files.\n\n---------------------------------------------------------------\n\nMinifies css files and places them into .tmp/public/min directory.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-cssmin",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/jst.js",
+            "line": 1,
+            "description": "Precompiles Underscore templates to a `.jst` file.\n\n---------------------------------------------------------------\n\n(i.e. basically it takes HTML files and turns them into tiny little\n javascript functions that you pass data to and return HTML. This can\n speed up template rendering on the client, and reduce bandwidth usage.)\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-jst",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/less.js",
+            "line": 1,
+            "description": "Compiles LESS files into CSS.\n\n---------------------------------------------------------------\n\nOnly the `assets/styles/importer.less` is compiled.\nThis allows you to control the ordering yourself, i.e. import your\ndependencies, mixins, variables, resets, etc. before other stylesheets)\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-less",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/sails-linker.js",
+            "line": 1,
+            "description": "Autoinsert script tags (or other filebased tags) in an html file.\n\n---------------------------------------------------------------\n\nAutomatically inject <script> tags for javascript files and <link> tags\nfor css files.  Also automatically links an output file containing precompiled\ntemplates using a <script> tag.\n\nFor usage docs see:\n\t\thttps://github.com/Zolmeister/grunt-sails-linker",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/sync.js",
+            "line": 1,
+            "description": "A grunt task to keep directories in sync. It is very similar to grunt-contrib-copy\nbut tries to copy only those files that has actually changed.\n\n---------------------------------------------------------------\n\nSynchronize files from the `assets` folder to `.tmp/public`,\nsmashing anything that's already there.\n\nFor usage docs see:\n\t\thttps://github.com/tomusdrw/grunt-sync",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/uglify.js",
+            "line": 1,
+            "description": "Minify files with UglifyJS.\n\n---------------------------------------------------------------\n\nMinifies client-side javascript `assets`.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-uglify",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/config/watch.js",
+            "line": 1,
+            "description": "Run predefined tasks whenever watched file patterns are added, changed or deleted.\n\n---------------------------------------------------------------\n\nWatch for changes on\n- files in the `assets` folder\n- the `tasks/pipeline.js` file\nand re-run the appropriate tasks.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-watch",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "tasks/pipeline.js",
+            "line": 1,
+            "description": "grunt/pipeline.js\n\nThe order in which your css, javascript, and template files should be\ncompiled and linked from your views and static HTML files.\n\n(Note that you can take advantage of Grunt-style wildcard/glob/splat expressions\nfor matching multiple files.)",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "Gruntfile.js",
+            "line": 1,
+            "description": "Gruntfile\n\nThis Node script is executed when you run `grunt` or `sails lift`.\nIt's purpose is to load the Grunt tasks in your project's `tasks`\nfolder, and allow you to add and remove tasks as you see fit.\nFor more information on how this works, check out the `README.md`\nfile that was generated in your `tasks` folder.\n\nWARNING:\nUnless you know what you're doing, you shouldn't change this file.\nCheck out the `tasks` directory instead.",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "Gruntfile.js",
+            "line": 40,
+            "description": "Loads Grunt configuration modules from the specified\nrelative path. These modules should export a function\nthat, when run, should either load/configure or register\na Grunt task.",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "Gruntfile.js",
+            "line": 53,
+            "description": "Invokes the function from a Grunt configuration module with\na single argument - the `grunt` object.",
+            "class": "",
+            "module": ":: Policy"
+        },
+        {
+            "file": "app.js",
+            "line": 1,
+            "description": "app.js\n\nUse `app.js` to run your app without `sails lift`.\nTo start the server, run: `node app.js`.\n\nThis is handy in situations where the sails CLI is not relevant or useful.\n\nFor example:\n  => `node app.js`\n  => `forever start app.js`\n  => `node debug app.js`\n  => `modulus deploy`\n  => `heroku scale`\n\n\nThe same command-line arguments are supported, e.g.:\n`node app.js --silent --port=80 --prod`",
+            "class": "",
+            "module": ":: Policy"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:98"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:163"
+        },
+        {
+            "message": "unknown tag: factory",
+            "line": " .tmp/public/js/dependencies/sails.io.js:163"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:212"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:227"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:296"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:331"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:379"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:407"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:435"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:463"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:491"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " .tmp/public/js/dependencies/sails.io.js:526"
+        },
+        {
+            "message": "unknown tag: help",
+            "line": " api/controllers/PofController.js:1"
+        },
+        {
+            "message": "unknown tag: help",
+            "line": " api/controllers/SettingsController.js:1"
+        },
+        {
+            "message": "unknown tag: docs",
+            "line": " api/policies/sessionAuth.js:1"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:98"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:163"
+        },
+        {
+            "message": "unknown tag: factory",
+            "line": " assets/js/dependencies/sails.io.js:163"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:212"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:227"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:296"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:331"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:379"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:407"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:435"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:463"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:491"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " assets/js/dependencies/sails.io.js:526"
+        },
+        {
+            "message": "Missing item type\nsails.io.js\n------------------------------------------------------------------------\nJavaScript Client (SDK) for communicating with Sails.\n\nNote that this script is completely optional, but it is handy if you're\nusing WebSockets from the browser to talk to your Sails server.\n\nFor tips and documentation, visit:\nhttp://sailsjs.org/#!documentation/reference/BrowserSDK/BrowserSDK.html\n------------------------------------------------------------------------\n\nThis file allows you to send and receive socket.io messages to & from Sails\nby simulating a REST client interface on top of socket.io. It models its API\nafter the $.ajax pattern from jQuery you might already be familiar with.\n\nSo if you're switching from using AJAX to sockets, instead of:\n   `$.post( url, [data], [cb] )`\n\nYou would use:\n   `socket.post( url, [data], [cb] )`",
+            "line": " .tmp/public/js/dependencies/sails.io.js:4"
+        },
+        {
+            "message": "Missing item type\nAugment the `io` object passed in with methods for talking and listening\nto one or more Sails backend(s).  Automatically connects a socket and\nexposes it on `io.socket`.  If a socket tries to make requests before it\nis connected, the sails.io.js client will queue it up.",
+            "line": " .tmp/public/js/dependencies/sails.io.js:73"
+        },
+        {
+            "message": "Missing item type\nTmpSocket\n\nA mock Socket used for binding events before the real thing\nhas been instantiated (since we need to use io.connect() to\ninstantiate the real thing, which would kick off the connection\nprocess w/ the server, and we don't necessarily have the valid\nconfiguration to know WHICH SERVER to talk to yet.)",
+            "line": " .tmp/public/js/dependencies/sails.io.js:98"
+        },
+        {
+            "message": "Missing item type\nA little logger for this library to use internally.\nBasically just a wrapper around `console.log` with\nsupport for feature-detection.",
+            "line": " .tmp/public/js/dependencies/sails.io.js:163"
+        },
+        {
+            "message": "Missing item type\n_isConnected",
+            "line": " .tmp/public/js/dependencies/sails.io.js:212"
+        },
+        {
+            "message": "Missing item type\nWhat is the `requestQueue`?\n\nThe request queue is used to simplify app-level connection logic--\ni.e. so you don't have to wait for the socket to be connected\nto start trying to  synchronize data.",
+            "line": " .tmp/public/js/dependencies/sails.io.js:227"
+        },
+        {
+            "message": "Missing item type\nSend an AJAX request.",
+            "line": " .tmp/public/js/dependencies/sails.io.js:258"
+        },
+        {
+            "message": "Missing item type\nThe JWR (JSON WebSocket Response) received from a Sails server.",
+            "line": " .tmp/public/js/dependencies/sails.io.js:296"
+        },
+        {
+            "message": "Missing item type",
+            "line": " .tmp/public/js/dependencies/sails.io.js:331"
+        },
+        {
+            "message": "Missing item type\nSimulate a GET request to sails\ne.g.\n   `socket.get('/user/3', Stats.populate)`",
+            "line": " .tmp/public/js/dependencies/sails.io.js:379"
+        },
+        {
+            "message": "Missing item type\nSimulate a POST request to sails\ne.g.\n   `socket.post('/event', newMeeting, $spinner.hide)`",
+            "line": " .tmp/public/js/dependencies/sails.io.js:407"
+        },
+        {
+            "message": "Missing item type\nSimulate a PUT request to sails\ne.g.\n   `socket.post('/event/3', changedFields, $spinner.hide)`",
+            "line": " .tmp/public/js/dependencies/sails.io.js:435"
+        },
+        {
+            "message": "Missing item type\nSimulate a DELETE request to sails\ne.g.\n   `socket.delete('/event', $spinner.hide)`",
+            "line": " .tmp/public/js/dependencies/sails.io.js:463"
+        },
+        {
+            "message": "Missing item type\nSimulate an HTTP request to sails\ne.g.\n   `socket.request('/user', newUser, $spinner.hide, 'post')`",
+            "line": " .tmp/public/js/dependencies/sails.io.js:491"
+        },
+        {
+            "message": "Missing item type\nSocket.prototype._request\n\nSimulate HTTP over Socket.io.",
+            "line": " .tmp/public/js/dependencies/sails.io.js:526"
+        },
+        {
+            "message": "Missing item type\nOverride `io.connect` to coerce it into using the io.sails\nconnection URL config, as well as sending identifying information\n(most importantly, the current version of this SDK)",
+            "line": " .tmp/public/js/dependencies/sails.io.js:601"
+        },
+        {
+            "message": "Missing item type\n'connect' event is triggered when the socket establishes a connection\n successfully.",
+            "line": " .tmp/public/js/dependencies/sails.io.js:713"
+        },
+        {
+            "message": "Missing item type\n:: Server-side logic for managing pofs",
+            "line": " api/controllers/PofController.js:1"
+        },
+        {
+            "message": "Missing item type\n:: Server-side logic for managing settings",
+            "line": " api/controllers/SettingsController.js:1"
+        },
+        {
+            "message": "Missing item type\n400 (Bad Request) Handler\n\nUsage:\nreturn res.badRequest();\nreturn res.badRequest(data);\nreturn res.badRequest(data, 'some/specific/badRequest/view');\n\ne.g.:\n```\nreturn res.badRequest(\n  'Please choose a valid `password` (6-12 characters)',\n  'trial/signup'\n);\n```",
+            "line": " api/responses/badRequest.js:1"
+        },
+        {
+            "message": "Missing item type\n403 (Forbidden) Handler\n\nUsage:\nreturn res.forbidden();\nreturn res.forbidden(err);\nreturn res.forbidden(err, 'some/specific/forbidden/view');\n\ne.g.:\n```\nreturn res.forbidden('Access denied.');\n```",
+            "line": " api/responses/forbidden.js:1"
+        },
+        {
+            "message": "Missing item type\n404 (Not Found) Handler\n\nUsage:\nreturn res.notFound();\nreturn res.notFound(err);\nreturn res.notFound(err, 'some/specific/notfound/view');\n\ne.g.:\n```\nreturn res.notFound();\n```\n\nNOTE:\nIf a request doesn't match any explicit routes (i.e. `config/routes.js`)\nor route blueprints (i.e. \"shadow routes\", Sails will call `res.notFound()`\nautomatically.",
+            "line": " api/responses/notFound.js:1"
+        },
+        {
+            "message": "Missing item type\n200 (OK) Response\n\nUsage:\nreturn res.ok();\nreturn res.ok(data);\nreturn res.ok(data, 'auth/login');",
+            "line": " api/responses/ok.js:1"
+        },
+        {
+            "message": "Missing item type\n500 (Server Error) Response\n\nUsage:\nreturn res.serverError();\nreturn res.serverError(err);\nreturn res.serverError(err, 'some/specific/error/view');\n\nNOTE:\nIf something throws in a policy or controller, or an internal\nerror is encountered, Sails will call `res.serverError()`\nautomatically.",
+            "line": " api/responses/serverError.js:1"
+        },
+        {
+            "message": "Missing item type\nsails.io.js\n------------------------------------------------------------------------\nJavaScript Client (SDK) for communicating with Sails.\n\nNote that this script is completely optional, but it is handy if you're\nusing WebSockets from the browser to talk to your Sails server.\n\nFor tips and documentation, visit:\nhttp://sailsjs.org/#!documentation/reference/BrowserSDK/BrowserSDK.html\n------------------------------------------------------------------------\n\nThis file allows you to send and receive socket.io messages to & from Sails\nby simulating a REST client interface on top of socket.io. It models its API\nafter the $.ajax pattern from jQuery you might already be familiar with.\n\nSo if you're switching from using AJAX to sockets, instead of:\n   `$.post( url, [data], [cb] )`\n\nYou would use:\n   `socket.post( url, [data], [cb] )`",
+            "line": " assets/js/dependencies/sails.io.js:4"
+        },
+        {
+            "message": "Missing item type\nAugment the `io` object passed in with methods for talking and listening\nto one or more Sails backend(s).  Automatically connects a socket and\nexposes it on `io.socket`.  If a socket tries to make requests before it\nis connected, the sails.io.js client will queue it up.",
+            "line": " assets/js/dependencies/sails.io.js:73"
+        },
+        {
+            "message": "Missing item type\nTmpSocket\n\nA mock Socket used for binding events before the real thing\nhas been instantiated (since we need to use io.connect() to\ninstantiate the real thing, which would kick off the connection\nprocess w/ the server, and we don't necessarily have the valid\nconfiguration to know WHICH SERVER to talk to yet.)",
+            "line": " assets/js/dependencies/sails.io.js:98"
+        },
+        {
+            "message": "Missing item type\nA little logger for this library to use internally.\nBasically just a wrapper around `console.log` with\nsupport for feature-detection.",
+            "line": " assets/js/dependencies/sails.io.js:163"
+        },
+        {
+            "message": "Missing item type\n_isConnected",
+            "line": " assets/js/dependencies/sails.io.js:212"
+        },
+        {
+            "message": "Missing item type\nWhat is the `requestQueue`?\n\nThe request queue is used to simplify app-level connection logic--\ni.e. so you don't have to wait for the socket to be connected\nto start trying to  synchronize data.",
+            "line": " assets/js/dependencies/sails.io.js:227"
+        },
+        {
+            "message": "Missing item type\nSend an AJAX request.",
+            "line": " assets/js/dependencies/sails.io.js:258"
+        },
+        {
+            "message": "Missing item type\nThe JWR (JSON WebSocket Response) received from a Sails server.",
+            "line": " assets/js/dependencies/sails.io.js:296"
+        },
+        {
+            "message": "Missing item type",
+            "line": " assets/js/dependencies/sails.io.js:331"
+        },
+        {
+            "message": "Missing item type\nSimulate a GET request to sails\ne.g.\n   `socket.get('/user/3', Stats.populate)`",
+            "line": " assets/js/dependencies/sails.io.js:379"
+        },
+        {
+            "message": "Missing item type\nSimulate a POST request to sails\ne.g.\n   `socket.post('/event', newMeeting, $spinner.hide)`",
+            "line": " assets/js/dependencies/sails.io.js:407"
+        },
+        {
+            "message": "Missing item type\nSimulate a PUT request to sails\ne.g.\n   `socket.post('/event/3', changedFields, $spinner.hide)`",
+            "line": " assets/js/dependencies/sails.io.js:435"
+        },
+        {
+            "message": "Missing item type\nSimulate a DELETE request to sails\ne.g.\n   `socket.delete('/event', $spinner.hide)`",
+            "line": " assets/js/dependencies/sails.io.js:463"
+        },
+        {
+            "message": "Missing item type\nSimulate an HTTP request to sails\ne.g.\n   `socket.request('/user', newUser, $spinner.hide, 'post')`",
+            "line": " assets/js/dependencies/sails.io.js:491"
+        },
+        {
+            "message": "Missing item type\nSocket.prototype._request\n\nSimulate HTTP over Socket.io.",
+            "line": " assets/js/dependencies/sails.io.js:526"
+        },
+        {
+            "message": "Missing item type\nOverride `io.connect` to coerce it into using the io.sails\nconnection URL config, as well as sending identifying information\n(most importantly, the current version of this SDK)",
+            "line": " assets/js/dependencies/sails.io.js:601"
+        },
+        {
+            "message": "Missing item type\n'connect' event is triggered when the socket establishes a connection\n successfully.",
+            "line": " assets/js/dependencies/sails.io.js:713"
+        },
+        {
+            "message": "Missing item type\nDevelopment environment settings\n\nThis file can include shared settings for a development team,\nsuch as API keys or remote database passwords.  If you're using\na version control solution for your Sails app, this file will\nbe committed to your repository unless you add it to your .gitignore\nfile.  If your repository will be publicly viewable, don't add\nany private information to this file!",
+            "line": " config/env/development.js:1"
+        },
+        {
+            "message": "Missing item type\nSet the default database connection for models in the development       *\nenvironment (see config/connections.js and config/models.js )           *",
+            "line": " config/env/development.js:15"
+        },
+        {
+            "message": "Missing item type\nProduction environment settings\n\nThis file can include shared settings for a production environment,\nsuch as API keys or remote database passwords.  If you're using\na version control solution for your Sails app, this file will\nbe committed to your repository unless you add it to your .gitignore\nfile.  If your repository will be publicly viewable, don't add\nany private information to this file!",
+            "line": " config/env/production.js:1"
+        },
+        {
+            "message": "Missing item type\nSet the default database connection for models in the production        *\nenvironment (see config/connections.js and config/models.js )           *",
+            "line": " config/env/production.js:15"
+        },
+        {
+            "message": "Missing item type\nSet the port in the production environment to 80                        *",
+            "line": " config/env/production.js:24"
+        },
+        {
+            "message": "Missing item type\nSet the log level in production environment to \"silent\"                 *",
+            "line": " config/env/production.js:30"
+        },
+        {
+            "message": "Missing item type\nBlueprint API Configuration\n(sails.config.blueprints)\n\nThese settings are for the global configuration of blueprint routes and\nrequest options (which impact the behavior of blueprint actions).\n\nYou may also override any of these settings on a per-controller basis\nby defining a '_config' key in your controller defintion, and assigning it\na configuration object with overrides for the settings in this file.\nA lot of the configuration options below affect so-called \"CRUD methods\",\nor your controllers' `find`, `create`, `update`, and `destroy` actions.\n\nIt's important to realize that, even if you haven't defined these yourself, as long as\na model exists with the same name as the controller, Sails will respond with built-in CRUD\nlogic in the form of a JSON API, including support for sort, pagination, and filtering.\n\nFor more information on the blueprint API, check out:\nhttp://sailsjs.org/#/documentation/reference/blueprint-api\n\nFor more information on the settings in this file, see:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.blueprints.html",
+            "line": " config/blueprints.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Action routes speed up the backend development workflow by               *\n eliminating the need to manually bind routes. When enabled, GET, POST,   *\n PUT, and DELETE routes will be generated for every one of a controller's *\n actions.                                                                 *\n*\n If an `index` action exists, additional naked routes will be created for *\n it. Finally, all `actions` blueprints support an optional path           *\n parameter, `id`, for convenience.                                        *\n*\n `actions` are enabled by default, and can be OK for production--         *\n however, if you'd like to continue to use controller/action autorouting  *\n in a production deployment, you must take great care not to              *\n inadvertently expose unsafe/unintentional controller logic to GET        *\n requests.                                                                *\n*",
+            "line": " config/blueprints.js:28"
+        },
+        {
+            "message": "Missing item type\n*\n RESTful routes (`sails.config.blueprints.rest`)                          *\n*\n REST blueprints are the automatically generated routes Sails uses to     *\n expose a conventional REST API on top of a controller's `find`,          *\n `create`, `update`, and `destroy` actions.                               *\n*\n For example, a BoatController with `rest` enabled generates the          *\n following routes:                                                        *\n :::::::::::::::::::::::::::::::::::::::::::::::::::::::                  *\n  GET /boat/:id? -> BoatController.find                                   *\n  POST /boat -> BoatController.create                                     *\n  PUT /boat/:id -> BoatController.update                                  *\n  DELETE /boat/:id -> BoatController.destroy                              *\n*\n `rest` blueprint routes are enabled by default, and are suitable for use *\n in a production scenario, as long you take standard security precautions *\n (combine w/ policies, etc.)                                              *\n*",
+            "line": " config/blueprints.js:49"
+        },
+        {
+            "message": "Missing item type\n*\n Shortcut routes are simple helpers to provide access to a                *\n controller's CRUD methods from your browser's URL bar. When enabled,     *\n GET, POST, PUT, and DELETE routes will be generated for the              *\n controller's`find`, `create`, `update`, and `destroy` actions.           *\n*\n `shortcuts` are enabled by default, but should be disabled in            *\n production.                                                              *\n*",
+            "line": " config/blueprints.js:73"
+        },
+        {
+            "message": "Missing item type\n*\n An optional mount path for all blueprint routes on a controller,         *\n including `rest`, `actions`, and `shortcuts`. This allows you to take    *\n advantage of blueprint routing, even if you need to namespace your API   *\n methods.                                                                 *\n*\n (NOTE: This only applies to blueprint autoroutes, not manual routes from *\n `sails.config.routes`)                                                   *\n*",
+            "line": " config/blueprints.js:87"
+        },
+        {
+            "message": "Missing item type\n*\n Whether to pluralize controller names in blueprint routes.               *\n*\n (NOTE: This only applies to blueprint autoroutes, not manual routes from *\n `sails.config.routes`)                                                   *\n*\n For example, REST blueprints for `FooController` with `pluralize`        *\n enabled:                                                                 *\n GET /foos/:id?                                                           *\n POST /foos                                                               *\n PUT /foos/:id?                                                           *\n DELETE /foos/:id?                                                        *\n*",
+            "line": " config/blueprints.js:101"
+        },
+        {
+            "message": "Missing item type\n*\n Whether the blueprint controllers should populate model fetches with     *\n data from other models which are linked by associations                  *\n*\n If you have a lot of data in one-to-many associations, leaving this on   *\n may result in very heavy api calls                                       *\n*",
+            "line": " config/blueprints.js:119"
+        },
+        {
+            "message": "Missing item type\n*\n Whether to run Model.watch() in the find and findOne blueprint actions.   *\n Can be overridden on a per-model basis.                                   *\n*",
+            "line": " config/blueprints.js:131"
+        },
+        {
+            "message": "Missing item type\n*\n The default number of records to show in the response from a \"find\"       *\n action. Doubles as the default size of populated arrays if populate is    *\n true.                                                                     *\n*",
+            "line": " config/blueprints.js:140"
+        },
+        {
+            "message": "Missing item type\nBootstrap\n(sails.config.bootstrap)\n\nAn asynchronous bootstrap function that runs before your Sails app gets lifted.\nThis gives you an opportunity to set up your data model, run jobs, or perform some special logic.\n\nFor more information on bootstrapping your app, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.bootstrap.html",
+            "line": " config/bootstrap.js:1"
+        },
+        {
+            "message": "Missing item type\nConnections\n(sails.config.connections)\n\n`Connections` are like \"saved settings\" for your adapters.  What's the difference between\na connection and an adapter, you might ask?  An adapter (e.g. `sails-mysql`) is generic--\nit needs some additional information to work (e.g. your database host, password, user, etc.)\nA `connection` is that additional information.\n\nEach model must have a `connection` property (a string) which is references the name of one\nof these connections.  If it doesn't, the default `connection` configured in `config/models.js`\nwill be applied.  Of course, a connection can (and usually is) shared by multiple models.\n.\nNote: If you're using version control, you should put your passwords/api keys\nin `config/local.js`, environment variables, or use another strategy.\n(this is to prevent you inadvertently sensitive credentials up to your repository.)\n\nFor more information on configuration, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.connections.html",
+            "line": " config/connections.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Local disk storage for DEVELOPMENT ONLY                                  *\n*\n Installed by default.                                                    *\n*",
+            "line": " config/connections.js:24"
+        },
+        {
+            "message": "Missing item type\n*\n MySQL is the world's most popular relational database.                   *\n http://en.wikipedia.org/wiki/MySQL                                       *\n*\n Run: npm install sails-mysql                                             *\n*",
+            "line": " config/connections.js:35"
+        },
+        {
+            "message": "Missing item type\n*\n MongoDB is the leading NoSQL database.                                   *\n http://en.wikipedia.org/wiki/MongoDB                                     *\n*\n Run: npm install sails-mongo                                             *\n*",
+            "line": " config/connections.js:51"
+        },
+        {
+            "message": "Missing item type\n*\n PostgreSQL is another officially supported relational database.          *\n http://en.wikipedia.org/wiki/PostgreSQL                                  *\n*\n Run: npm install sails-postgresql                                        *\n*\n*",
+            "line": " config/connections.js:68"
+        },
+        {
+            "message": "Missing item type\n*\n More adapters: https://github.com/balderdashy/sails                      *\n*",
+            "line": " config/connections.js:86"
+        },
+        {
+            "message": "Missing item type\nCross-Origin Resource Sharing (CORS) Settings\n(sails.config.cors)\n\nCORS is like a more modern version of JSONP-- it allows your server/API\nto successfully respond to requests from client-side JavaScript code\nrunning on some other domain (e.g. google.com)\nUnlike JSONP, it works with POST, PUT, and DELETE requests\n\nFor more information on CORS, check out:\nhttp://en.wikipedia.org/wiki/Cross-origin_resource_sharing\n\nNote that any of these settings (besides 'allRoutes') can be changed on a per-route basis\nby adding a \"cors\" object to the route configuration:\n\n'/get foo': {\n  controller: 'foo',\n  action: 'bar',\n  cors: {\n    origin: 'http://foobar.com,https://owlhoot.com'\n  }\n }\n\n For more information on this configuration file, see:\n http://sailsjs.org/#/documentation/reference/sails.config/sails.config.cors.html",
+            "line": " config/cors.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Allow CORS on all routes by default? If not, you must enable CORS on a   *\n per-route basis by either adding a \"cors\" configuration object to the    *\n route config, or setting \"cors:true\" in the route config to use the      *\n default settings below.                                                  *\n*",
+            "line": " config/cors.js:31"
+        },
+        {
+            "message": "Missing item type\n*\n Which domains which are allowed CORS access? This can be a               *\n comma-delimited list of hosts (beginning with http:// or https://) or    *\n \"*\" to allow all domains CORS access.                                    *\n*",
+            "line": " config/cors.js:42"
+        },
+        {
+            "message": "Missing item type\n*\n Allow cookies to be shared for CORS requests?                            *\n*",
+            "line": " config/cors.js:52"
+        },
+        {
+            "message": "Missing item type\n*\n Which methods should be allowed for CORS requests? This is only used in  *\n response to preflight requests (see article linked above for more info)  *\n*",
+            "line": " config/cors.js:60"
+        },
+        {
+            "message": "Missing item type\n*\n Which headers should be allowed for CORS requests? This is only used in  *\n response to preflight requests.                                          *\n*",
+            "line": " config/cors.js:69"
+        },
+        {
+            "message": "Missing item type\nCross-Site Request Forgery Protection Settings\n(sails.config.csrf)\n\nCSRF tokens are like a tracking chip.  While a session tells the server that a user\n\"is who they say they are\", a csrf token tells the server \"you are where you say you are\".\n\nWhen enabled, all non-GET requests to the Sails server must be accompanied by\na special token, identified as the '_csrf' parameter.\n\nThis option protects your Sails app against cross-site request forgery (or CSRF) attacks.\nA would-be attacker needs not only a user's session cookie, but also this timestamped,\nsecret CSRF token, which is refreshed/granted when the user visits a URL on your app's domain.\n\nThis allows us to have certainty that our users' requests haven't been hijacked,\nand that the requests they're making are intentional and legitimate.\n\nThis token has a short-lived expiration timeline, and must be acquired by either:\n\n(a)\t\tFor traditional view-driven web apps:\n\t\t\tFetching it from one of your views, where it may be accessed as\n\t\t\ta local variable, e.g.:\n\t\t\t<form>\n\t\t\t\t<input type=\"hidden\" name=\"_csrf\" value=\"<%= _csrf %>\" />\n\t\t\t</form>\n\nor (b)\tFor AJAX/Socket-heavy and/or single-page apps:\n\t\t\tSending a GET request to the `/csrfToken` route, where it will be returned\n\t\t\tas JSON, e.g.:\n\t\t\t{ _csrf: 'ajg4JD(JGdajhLJALHDa' }\n\n\nEnabling this option requires managing the token in your front-end app.\nFor traditional web apps, it's as easy as passing the data from a view into a form action.\nIn AJAX/Socket-heavy apps, just send a GET request to the /csrfToken route to get a valid token.\n\nFor more information on CSRF, check out:\nhttp://en.wikipedia.org/wiki/Cross-site_request_forgery\n\nFor more information on this configuration file, including info on CSRF + CORS, see:\nhttp://beta.sailsjs.org/#/documentation/reference/sails.config/sails.config.csrf.html",
+            "line": " config/csrf.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Enabled CSRF protection for your site?                                    *\n*",
+            "line": " config/csrf.js:45"
+        },
+        {
+            "message": "Missing item type\n*\n You may also specify more fine-grained settings for CSRF, including the   *\n domains which are allowed to request the CSRF token via AJAX. These       *\n settings override the general CORS settings in your config/cors.js file.  *\n*",
+            "line": " config/csrf.js:53"
+        },
+        {
+            "message": "Missing item type\nGlobal Variable Configuration\n(sails.config.globals)\n\nConfigure which global variables which will be exposed\nautomatically by Sails.\n\nFor more information on configuration, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.globals.html",
+            "line": " config/globals.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Expose the lodash installed in Sails core as a global variable. If this   *\n is disabled, like any other node module you can always run npm install    *\n lodash --save, then var _ = require('lodash') at the top of any file.     *\n*",
+            "line": " config/globals.js:13"
+        },
+        {
+            "message": "Missing item type\n*\n Expose the async installed in Sails core as a global variable. If this is *\n disabled, like any other node module you can always run npm install async *\n --save, then var async = require('async') at the top of any file.         *\n*",
+            "line": " config/globals.js:23"
+        },
+        {
+            "message": "Missing item type\n*\n Expose the sails instance representing your app. If this is disabled, you *\n can still get access via req._sails.                                      *\n*",
+            "line": " config/globals.js:33"
+        },
+        {
+            "message": "Missing item type\n*\n Expose each of your app's services as global variables (using their       *\n \"globalId\"). E.g. a service defined in api/models/NaturalLanguage.js      *\n would have a globalId of NaturalLanguage by default. If this is disabled, *\n you can still access your services via sails.services.*                   *\n*",
+            "line": " config/globals.js:42"
+        },
+        {
+            "message": "Missing item type\n*\n Expose each of your app's models as global variables (using their         *\n \"globalId\"). E.g. a model defined in api/models/User.js would have a      *\n globalId of User by default. If this is disabled, you can still access    *\n your models via sails.models.*.                                           *\n*",
+            "line": " config/globals.js:53"
+        },
+        {
+            "message": "Missing item type\nHTTP Server Settings\n(sails.config.http)\n\nConfiguration for the underlying HTTP server in Sails.\nOnly applies to HTTP requests (not WebSockets)\n\nFor more information on configuration, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.http.html",
+            "line": " config/http.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Express middleware to use for every Sails request. To add custom          *\n middleware to the mix, add a function to the middleware config object and *\n add its key to the \"order\" array. The $custom key is reserved for         *\n backwards-compatibility with Sails v0.9.x apps that use the               *\n `customMiddleware` config option.                                         *\n*",
+            "line": " config/http.js:14"
+        },
+        {
+            "message": "Missing item type\n*\n The order in which middleware should be run for HTTP request. (the Sails *\n router is invoked by the \"router\" middleware below.)                     *\n*",
+            "line": " config/http.js:26"
+        },
+        {
+            "message": "Missing item type\n*\n Example custom middleware; logs each request to the console.              *\n*",
+            "line": " config/http.js:51"
+        },
+        {
+            "message": "Missing item type\n*\n The body parser that will handle incoming multipart HTTP requests. By    *\n default as of v0.10, Sails uses                                          *\n [skipper](http://github.com/balderdashy/skipper). See                    *\n http://www.senchalabs.org/connect/multipart.html for other options.      *\n*",
+            "line": " config/http.js:63"
+        },
+        {
+            "message": "Missing item type\n*\n The number of seconds to cache flat files on disk being served by        *\n Express static middleware (by default, these files are in `.tmp/public`) *\n*\n The HTTP static cache is only active in a 'production' environment,      *\n since that's the only time Express will cache flat-files.                *\n*",
+            "line": " config/http.js:76"
+        },
+        {
+            "message": "Missing item type\nInternationalization / Localization Settings\n(sails.config.i18n)\n\nIf your app will touch people from all over the world, i18n (or internationalization)\nmay be an important part of your international strategy.\n\n\nFor more informationom i18n in Sails, check out:\nhttp://sailsjs.org/#/documentation/concepts/Internationalization\n\nFor a complete list of i18n options, see:\nhttps://github.com/mashpie/i18n-node#list-of-configuration-options",
+            "line": " config/i18n.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Which locales are supported?                                             *\n*",
+            "line": " config/i18n.js:20"
+        },
+        {
+            "message": "Missing item type\n*\n What is the default locale for the site? Note that this setting will be   *\n overridden for any request that sends an \"Accept-Language\" header (i.e.   *\n most browsers), but it's still useful if you need to localize the         *\n response for requests made by non-browser clients (e.g. cURL).            *\n*",
+            "line": " config/i18n.js:28"
+        },
+        {
+            "message": "Missing item type\n*\n Automatically add new keys to locale (translation) files when they are    *\n encountered during a request?                                             *\n*",
+            "line": " config/i18n.js:39"
+        },
+        {
+            "message": "Missing item type\n*\n Path (relative to app root) of directory to store locale (translation)    *\n files in.                                                                 *\n*",
+            "line": " config/i18n.js:48"
+        },
+        {
+            "message": "Missing item type\nLocal environment settings\n\nUse this file to specify configuration settings for use while developing\nthe app on your personal system: for example, this would be a good place\nto store database or email passwords that apply only to you, and shouldn't\nbe shared with others in your organization.\n\nThese settings take precedence over all other config files, including those\nin the env/ subfolder.\n\nPLEASE NOTE:\n\t\tlocal.js is included in your .gitignore, so if you're using git\n\t\tas a version control solution for your Sails app, keep in mind that\n\t\tthis file won't be committed to your repository!\n\n\t\tGood news is, that means you can specify configuration for your local\n\t\tmachine in this file without inadvertently committing personal information\n\t\t(like database passwords) to the repo.  Plus, this prevents other members\n\t\tof your team from commiting their local configuration changes on top of yours.\n\n   In a production environment, you probably want to leave this file out\n   entirely and leave all your settings in env/production.js\n\n\nFor more information, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.local.html",
+            "line": " config/local.js:1"
+        },
+        {
+            "message": "Missing item type\nYour SSL certificate and key, if you want to be able to serve HTTP      *\nresponses over https:// and/or use websockets over the wss:// protocol  *\n(recommended for HTTP, strongly encouraged for WebSockets)              *\n                                                                        *\nIn this example, we'll assume you created a folder in your project,     *\n`config/ssl` and dumped your certificate/key files there:               *",
+            "line": " config/local.js:32"
+        },
+        {
+            "message": "Missing item type\nThe `port` setting determines which TCP port your app will be           *\ndeployed on.                                                            *\n                                                                        *\nPorts are a transport-layer concept designed to allow many different    *\nnetworking applications run at the same time on a single computer.      *\nMore about ports:                                                       *\nhttp://en.wikipedia.org/wiki/Port_(computer_networking)                 *\n                                                                        *\nBy default, if it's set, Sails uses the `PORT` environment variable.    *\nOtherwise it falls back to port 1337.                                   *\n                                                                        *\nIn env/production.js, you'll probably want to change this setting       *\nto 80 (http://) or 443 (https://) if you have an SSL certificate        *",
+            "line": " config/local.js:47"
+        },
+        {
+            "message": "Missing item type\nThe runtime \"environment\" of your Sails app is either typically         *\n'development' or 'production'.                                          *\n                                                                        *\nIn development, your Sails app will go out of its way to help you       *\n(for instance you will receive more descriptive error and               *\ndebugging output)                                                       *\n                                                                        *\nIn production, Sails configures itself (and its dependencies) to        *\noptimize performance. You should always put your app in production mode *\nbefore you deploy it to a server.  This helps ensure that your Sails    *\napp remains stable, performant, and scalable.                           *\n                                                                        *\nBy default, Sails sets its environment using the `NODE_ENV` environment *\nvariable.  If NODE_ENV is not set, Sails will run in the                *\n'development' environment.                                              *",
+            "line": " config/local.js:65"
+        },
+        {
+            "message": "Missing item type\nBuilt-in Log Configuration\n(sails.config.log)\n\nConfigure the log level for your app, as well as the transport\n(Underneath the covers, Sails uses Winston for logging, which\nallows for some pretty neat custom transports/adapters for log messages)\n\nFor more information on the Sails logger, check out:\nhttp://sailsjs.org/#/documentation/concepts/Logging",
+            "line": " config/log.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Valid `level` configs: i.e. the minimum log level to capture with        *\n sails.log.*()                                                            *\n*\n The order of precedence for log levels from lowest to highest is:        *\n silly, verbose, info, debug, warn, error                                 *\n*\n You may also set the level to \"silent\" to suppress all logs.             *\n*",
+            "line": " config/log.js:15"
+        },
+        {
+            "message": "Missing item type\nDefault model configuration\n(sails.config.models)\n\nUnless you override them, the following properties will be included\nin each of your models.\n\nFor more info on Sails models, see:\nhttp://sailsjs.org/#/documentation/concepts/ORM",
+            "line": " config/models.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Your app's default connection. i.e. the name of one of your app's        *\n connections (see `config/connections.js`)                                *\n*",
+            "line": " config/models.js:14"
+        },
+        {
+            "message": "Missing item type\n*\n How and whether Sails will attempt to automatically rebuild the          *\n tables/collections/etc. in your schema.                                  *\n*\n See http://sailsjs.org/#/documentation/concepts/ORM/model-settings.html  *\n*",
+            "line": " config/models.js:22"
+        },
+        {
+            "message": "Missing item type\nPolicy Mappings\n(sails.config.policies)\n\nPolicies are simple functions which run **before** your controllers.\nYou can apply one or more policies to a given controller, or protect\nits actions individually.\n\nAny policy file (e.g. `api/policies/authenticated.js`) can be accessed\nbelow by its filename, minus the extension, (e.g. \"authenticated\")\n\nFor more information on how policies work, see:\nhttp://sailsjs.org/#/documentation/concepts/Policies\n\nFor more information on configuring policies, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.policies.html",
+            "line": " config/policies.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Default policy for all controllers and actions (`true` allows public     *\n access)                                                                  *\n*",
+            "line": " config/policies.js:22"
+        },
+        {
+            "message": "Missing item type\n*\n Here's an example of mapping some policies to run before a controller    *\n and its actions                                                          *\n*",
+            "line": " config/policies.js:31"
+        },
+        {
+            "message": "Missing item type\nRoute Mappings\n(sails.config.routes)\n\nYour routes map URLs to views and controllers.\n\nIf Sails receives a URL that doesn't match any of the routes below,\nit will check for matching files (images, scripts, stylesheets, etc.)\nin your assets directory.  e.g. `http://localhost:1337/images/foo.jpg`\nmight match an image file: `/assets/images/foo.jpg`\n\nFinally, if those don't match either, the default 404 handler is triggered.\nSee `api/responses/notFound.js` to adjust your app's 404 logic.\n\nNote: Sails doesn't ACTUALLY serve stuff from `assets`-- the default Gruntfile in Sails copies\nflat files from `assets` to `.tmp/public`.  This allows you to do things like compile LESS or\nCoffeeScript for the front-end.\n\nFor more information on configuring custom routes, check out:\nhttp://sailsjs.org/#/documentation/concepts/Routes/RouteTargetSyntax.html",
+            "line": " config/routes.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Make the view located at `views/homepage.ejs` (or `views/homepage.jade`, *\n etc. depending on your default view engine) your home page.              *\n*\n (Alternatively, remove this and add an `index.html` file in your         *\n `assets` directory)                                                      *\n*",
+            "line": " config/routes.js:25"
+        },
+        {
+            "message": "Missing item type\n*\n Custom routes here...                                                    *\n*\n  If a request to a URL doesn't match any of the custom routes above, it  *\n is matched against Sails route blueprints. See `config/blueprints.js`    *\n for configuration options and examples.                                  *\n*",
+            "line": " config/routes.js:68"
+        },
+        {
+            "message": "Missing item type\nSession Configuration\n(sails.config.session)\n\nSails session integration leans heavily on the great work already done by\nExpress, but also unifies Socket.io with the Connect session store. It uses\nConnect's cookie parser to normalize configuration differences between Express\nand Socket.io and hooks into Sails' middleware interpreter to allow you to access\nand auto-save to `req.session` with Socket.io the same way you would with Express.\n\nFor more information on configuring the session, check out:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.session.html",
+            "line": " config/session.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n Session secret is automatically generated when your new app is created   *\n Replace at your own risk in production-- you will invalidate the cookies *\n of your users, forcing them to log in again.                             *\n*",
+            "line": " config/session.js:17"
+        },
+        {
+            "message": "Missing item type\n*\n Set the session cookie expire time The maxAge is set by milliseconds,    *\n the example below is for 24 hours                                        *\n*",
+            "line": " config/session.js:27"
+        },
+        {
+            "message": "Missing item type\n*\n In production, uncomment the following lines to set up a shared redis    *\n session store that can be shared across multiple Sails.js servers        *",
+            "line": " config/session.js:38"
+        },
+        {
+            "message": "Missing item type\n*\n The following values are optional, if no options are set a redis         *\n instance running on localhost is expected. Read more about options at:   *\n https://github.com/visionmedia/connect-redis                             *\n*\n*",
+            "line": " config/session.js:46"
+        },
+        {
+            "message": "Missing item type\n*\n Uncomment the following lines to use your Mongo adapter as a session     *\n store                                                                    *\n*",
+            "line": " config/session.js:63"
+        },
+        {
+            "message": "Missing item type\n*\n Optional Values:                                                         *\n*\n # Note: url will override other connection settings url:                 *\n 'mongodb://user:pass@host:port/database/collection',                     *\n*",
+            "line": " config/session.js:76"
+        },
+        {
+            "message": "Missing item type\nWebSocket Server Settings\n(sails.config.sockets)\n\nThese settings provide transparent access to the options for Sails'\nencapsulated WebSocket server, as well as some additional Sails-specific\nconfiguration layered on top.\n\nFor more information on sockets configuration, including advanced config options, see:\nhttp://sailsjs.org/#/documentation/reference/sails.config/sails.config.sockets.html",
+            "line": " config/sockets.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n This custom onConnect function will be run each time AFTER a new socket  *\n connects (To control whether a socket is allowed to connect, check out   *\n `authorization` config.) Keep in mind that Sails' RESTful simulation for *\n sockets mixes in socket.io events for your routes and blueprints         *\n automatically.                                                           *\n*",
+            "line": " config/sockets.js:15"
+        },
+        {
+            "message": "Missing item type\n*\n This custom onDisconnect function will be run each time a socket         *\n disconnects                                                              *\n*",
+            "line": " config/sockets.js:31"
+        },
+        {
+            "message": "Missing item type\n*\n `transports`                                                             *\n*\n A array of allowed transport methods which the clients will try to use.  *\n The flashsocket transport is disabled by default You can enable          *\n flashsockets by adding 'flashsocket' to this list:                       *\n*",
+            "line": " config/sockets.js:43"
+        },
+        {
+            "message": "Missing item type\n*\n Use this option to set the datastore socket.io will use to manage        *\n rooms/sockets/subscriptions: default: memory                             *\n*",
+            "line": " config/sockets.js:59"
+        },
+        {
+            "message": "Missing item type\n*\n Node.js (and consequently Sails.js) apps scale horizontally. It's a      *\n powerful, efficient approach, but it involves a tiny bit of planning. At *\n scale, you'll want to be able to copy your app onto multiple Sails.js    *\n servers and throw them behind a load balancer.                           *\n*\n One of the big challenges of scaling an application is that these sorts  *\n of clustered deployments cannot share memory, since they are on          *\n physically different machines. On top of that, there is no guarantee     *\n that a user will \"stick\" with the same server between requests (whether  *\n HTTP or sockets), since the load balancer will route each request to the *\n Sails server with the most available resources. However that means that  *\n all room/pubsub/socket processing and shared memory has to be offloaded  *\n to a shared, remote messaging queue (usually Redis)                      *\n*\n Luckily, Socket.io (and consequently Sails.js) apps support Redis for    *\n sockets by default. To enable a remote redis pubsub server, uncomment    *\n the config below.                                                        *\n*\n Worth mentioning is that, if `adapter` config is `redis`, but host/port  *\n is left unset, Sails will try to connect to redis running on localhost   *\n via port 6379                                                            *\n*",
+            "line": " config/sockets.js:68"
+        },
+        {
+            "message": "Missing item type\n*\n `authorization`                                                          *\n*\n Global authorization for Socket.IO access, this is called when the       *\n initial handshake is performed with the server.                          *\n*\n By default (`authorization: false`), when a socket tries to connect,     *\n Sails allows it, every time. If no valid cookie was sent, a temporary    *\n session will be created for the connecting socket.                       *\n*\n If `authorization: true`, before allowing a connection, Sails verifies   *\n that a valid cookie was sent with the upgrade request. If the cookie     *\n doesn't match any known user session, a new user session is created for  *\n it. (In most cases, the user would already have a cookie since they      *\n loaded the socket.io client and the initial HTML page.)                  *\n*\n However, in the case of cross-domain requests, it is possible to receive *\n a connection upgrade request WITHOUT A COOKIE (for certain transports)   *\n In this case, there is no way to keep track of the requesting user       *\n between requests, since there is no identifying information to link      *\n him/her with a session. The sails.io.js client solves this by connecting *\n to a CORS endpoint first to get a 3rd party cookie (fortunately this     *\n works, even in Safari), then opening the connection.                     *\n*\n You can also pass along a ?cookie query parameter to the upgrade url,    *\n which Sails will use in the absense of a proper cookie e.g. (when        *\n connection from the client):                                             *\n io.connect('http://localhost:1337?cookie=smokeybear')                    *\n*\n (Un)fortunately, the user's cookie is (should!) not accessible in        *\n client-side js. Using HTTP-only cookies is crucial for your app's        *\n security. Primarily because of this situation, as well as a handful of   *\n other advanced use cases, Sails allows you to override the authorization *\n behavior with your own custom logic by specifying a function, e.g:       *\n*\n    authorization: function authSocketConnectionAttempt(reqObj, cb) {     *\n*\n        // Any data saved in `handshake` is available in subsequent       *\n        requests from this as `req.socket.handshake.*`                    *\n*\n        // to allow the connection, call `cb(null, true)`                 *\n        // to prevent the connection, call `cb(null, false)`              *\n        // to report an error, call `cb(err)`                             *\n     }                                                                    *\n*",
+            "line": " config/sockets.js:101"
+        },
+        {
+            "message": "Missing item type\n*\n Whether to run code which supports legacy usage for connected sockets    *\n running the v0.9 version of the socket client SDK (i.e. sails.io.js).    *\n Disabled in newly generated projects, but enabled as an implicit default *\n (i.e. legacy usage/v0.9 clients be supported if this property is set to  *\n true, but also if it is removed from this configuration file or set to   *\n `undefined`)                                                             *\n*",
+            "line": " config/sockets.js:151"
+        },
+        {
+            "message": "Missing item type\n*\n Whether to expose a 'get /__getcookie' route with CORS support that sets *\n a cookie (this is used by the sails.io.js socket client to get access to *\n a 3rd party cookie and to enable sessions).                              *\n*\n Warning: Currently in this scenario, CORS settings apply to interpreted  *\n requests sent via a socket.io connection that used this cookie to        *\n connect, even for non-browser clients! (e.g. iOS apps, toasters, node.js *\n unit tests)                                                              *\n*",
+            "line": " config/sockets.js:164"
+        },
+        {
+            "message": "Missing item type\n*\n Match string representing the origins that are allowed to connect to the *\n Socket.IO server                                                         *\n*",
+            "line": " config/sockets.js:179"
+        },
+        {
+            "message": "Missing item type\nView Engine Configuration\n(sails.config.views)\n\nServer-sent views are a classic and effective way to get your app up\nand running. Views are normally served from controllers.  Below, you can\nconfigure your templating language/framework of choice and configure\nSails' layout support.\n\nFor more information on views and layouts, check out:\nhttp://sailsjs.org/#/documentation/concepts/Views",
+            "line": " config/views.js:1"
+        },
+        {
+            "message": "Missing item type\n*\n View engine (aka template language) to use for your app's *server-side*   *\n views                                                                     *\n*\n Sails+Express supports all view engines which implement TJ Holowaychuk's  *\n `consolidate.js`, including, but not limited to:                          *\n*\n ejs, jade, handlebars, mustache underscore, hogan, haml, haml-coffee,     *\n dust atpl, eco, ect, jazz, jqtpl, JUST, liquor, QEJS, swig, templayed,    *\n toffee, walrus, & whiskers                                                *\n*\n For more options, check out the docs:                                     *\n https://github.com/balderdashy/sails-wiki/blob/0.9/config.views.md#engine *\n*",
+            "line": " config/views.js:16"
+        },
+        {
+            "message": "Missing item type\n*\n Layouts are simply top-level HTML templates you can use as wrappers for   *\n your server-side views. If you're using ejs or jade, you can take         *\n advantage of Sails' built-in `layout` support.                            *\n*\n When using a layout, when one of your views is served, it is injected     *\n into the `body` partial defined in the layout. This lets you reuse header *\n and footer logic between views.                                           *\n*\n NOTE: Layout support is only implemented for the `ejs` view engine!       *\n       For most other engines, it is not necessary, since they implement   *\n       partials/layouts themselves. In those cases, this config will be    *\n       silently ignored.                                                   *\n*\n The `layout` setting may be set to one of the following:                  *\n*\n If `false`, layouts will be disabled. Otherwise, if a string is           *\n specified, it will be interpreted as the relative path to your layout     *\n file from `views/` folder. (the file extension, \".ejs\", should be         *\n omitted)                                                                  *\n*",
+            "line": " config/views.js:36"
+        },
+        {
+            "message": "Missing item type\n*\n Using Multiple Layouts with EJS                                           *\n*\n If you're using the default engine, `ejs`, Sails supports the use of      *\n multiple `layout` files. To take advantage of this, before rendering a    *\n view, override the `layout` local in your controller by setting           *\n `res.locals.layout`. (this is handy if you parts of your app's UI look    *\n completely different from each other)                                     *\n*\n e.g. your default might be                                                *\n layout: 'layouts/public'                                                  *\n*\n But you might override that in some of your controllers with:             *\n layout: 'layouts/internal'                                                *\n*",
+            "line": " config/views.js:62"
+        },
+        {
+            "message": "Missing item type\nClean files and folders.\n\n---------------------------------------------------------------\n\nThis grunt task is configured to clean out the contents in the .tmp/public of your\nsails project.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-clean",
+            "line": " tasks/config/clean.js:1"
+        },
+        {
+            "message": "Missing item type\nCompile CoffeeScript files to JavaScript.\n\n---------------------------------------------------------------\n\nCompiles coffeeScript files from `assest/js` into Javascript and places them into\n`.tmp/public/js` directory.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-coffee",
+            "line": " tasks/config/coffee.js:1"
+        },
+        {
+            "message": "Missing item type\nConcatenate files.\n\n---------------------------------------------------------------\n\nConcatenates files javascript and css from a defined array. Creates concatenated files in\n.tmp/public/contact directory\n[concat](https://github.com/gruntjs/grunt-contrib-concat)\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-concat",
+            "line": " tasks/config/concat.js:1"
+        },
+        {
+            "message": "Missing item type\nCopy files and folders.\n\n---------------------------------------------------------------\n\n# dev task config\nCopies all directories and files, exept coffescript and less fiels, from the sails\nassets folder into the .tmp/public directory.\n\n# build task config\nCopies all directories nd files from the .tmp/public directory into a www directory.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-copy",
+            "line": " tasks/config/copy.js:1"
+        },
+        {
+            "message": "Missing item type\nCompress CSS files.\n\n---------------------------------------------------------------\n\nMinifies css files and places them into .tmp/public/min directory.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-cssmin",
+            "line": " tasks/config/cssmin.js:1"
+        },
+        {
+            "message": "Missing item type\nPrecompiles Underscore templates to a `.jst` file.\n\n---------------------------------------------------------------\n\n(i.e. basically it takes HTML files and turns them into tiny little\n javascript functions that you pass data to and return HTML. This can\n speed up template rendering on the client, and reduce bandwidth usage.)\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-jst",
+            "line": " tasks/config/jst.js:1"
+        },
+        {
+            "message": "Missing item type\nCompiles LESS files into CSS.\n\n---------------------------------------------------------------\n\nOnly the `assets/styles/importer.less` is compiled.\nThis allows you to control the ordering yourself, i.e. import your\ndependencies, mixins, variables, resets, etc. before other stylesheets)\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-less",
+            "line": " tasks/config/less.js:1"
+        },
+        {
+            "message": "Missing item type\nAutoinsert script tags (or other filebased tags) in an html file.\n\n---------------------------------------------------------------\n\nAutomatically inject <script> tags for javascript files and <link> tags\nfor css files.  Also automatically links an output file containing precompiled\ntemplates using a <script> tag.\n\nFor usage docs see:\n\t\thttps://github.com/Zolmeister/grunt-sails-linker",
+            "line": " tasks/config/sails-linker.js:1"
+        },
+        {
+            "message": "Missing item type\nA grunt task to keep directories in sync. It is very similar to grunt-contrib-copy\nbut tries to copy only those files that has actually changed.\n\n---------------------------------------------------------------\n\nSynchronize files from the `assets` folder to `.tmp/public`,\nsmashing anything that's already there.\n\nFor usage docs see:\n\t\thttps://github.com/tomusdrw/grunt-sync",
+            "line": " tasks/config/sync.js:1"
+        },
+        {
+            "message": "Missing item type\nMinify files with UglifyJS.\n\n---------------------------------------------------------------\n\nMinifies client-side javascript `assets`.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-uglify",
+            "line": " tasks/config/uglify.js:1"
+        },
+        {
+            "message": "Missing item type\nRun predefined tasks whenever watched file patterns are added, changed or deleted.\n\n---------------------------------------------------------------\n\nWatch for changes on\n- files in the `assets` folder\n- the `tasks/pipeline.js` file\nand re-run the appropriate tasks.\n\nFor usage docs see:\n\t\thttps://github.com/gruntjs/grunt-contrib-watch",
+            "line": " tasks/config/watch.js:1"
+        },
+        {
+            "message": "Missing item type\ngrunt/pipeline.js\n\nThe order in which your css, javascript, and template files should be\ncompiled and linked from your views and static HTML files.\n\n(Note that you can take advantage of Grunt-style wildcard/glob/splat expressions\nfor matching multiple files.)",
+            "line": " tasks/pipeline.js:1"
+        },
+        {
+            "message": "Missing item type\nGruntfile\n\nThis Node script is executed when you run `grunt` or `sails lift`.\nIt's purpose is to load the Grunt tasks in your project's `tasks`\nfolder, and allow you to add and remove tasks as you see fit.\nFor more information on how this works, check out the `README.md`\nfile that was generated in your `tasks` folder.\n\nWARNING:\nUnless you know what you're doing, you shouldn't change this file.\nCheck out the `tasks` directory instead.",
+            "line": " Gruntfile.js:1"
+        },
+        {
+            "message": "Missing item type\nLoads Grunt configuration modules from the specified\nrelative path. These modules should export a function\nthat, when run, should either load/configure or register\na Grunt task.",
+            "line": " Gruntfile.js:40"
+        },
+        {
+            "message": "Missing item type\nInvokes the function from a Grunt configuration module with\na single argument - the `grunt` object.",
+            "line": " Gruntfile.js:53"
+        },
+        {
+            "message": "Missing item type\napp.js\n\nUse `app.js` to run your app without `sails lift`.\nTo start the server, run: `node app.js`.\n\nThis is handy in situations where the sails CLI is not relevant or useful.\n\nFor example:\n  => `node app.js`\n  => `forever start app.js`\n  => `node debug app.js`\n  => `modulus deploy`\n  => `heroku scale`\n\n\nThe same command-line arguments are supported, e.g.:\n`node app.js --silent --port=80 --prod`",
+            "line": " app.js:1"
+        }
+    ]
+}

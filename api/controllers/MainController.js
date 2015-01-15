@@ -1,16 +1,19 @@
 /**
- * MainController
- *
- * @description :: Server-side logic for managing mains
- * @help        :: See http://links.sailsjs.org/docs/controllers
- */
+* This controller is main controller. The main controller renders the index page,
+* and wachts the photo folder. Whene a photo is added to the folder the maincontoller sends a 
+* websocket message to the user. The photo will disapear real-time on the users screen.
+*
+* @class MainController
+*/
 var fs = require("fs");
 var newestPhoto = "";
 var photoPath = "./assets/images/greenscreen/";
 var clientPhotoPath = "/images/greenscreen/";
 var publicPath = "./.tmp/public/images/greenscreen/";
+// watch the photo folder
 fs.watch(photoPath,function(event, file){
 	{
+        // check is the change is not from the .DS_Store file
 		if(file != ".DS_Store")
 		{
 			// if file is deleted or added
@@ -29,6 +32,11 @@ fs.watch(photoPath,function(event, file){
 
 // new photo watcher //
 module.exports = {
+    /**
+    * Renders the index page and send a update photo message to the client. 
+    *
+    * @method index
+    */
 	'index': function(req,res){
 		res.locals.flash = _.clone(req.session.flash);
 		res.view({photo: newestPhoto});
