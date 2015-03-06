@@ -1,4 +1,12 @@
 <div class="coll tap-6 box">
+	<div class="content-header">
+		<div class="hts-logo">
+			<img src="https://s3.eu-central-1.amazonaws.com/100jaarhts/logo.png">
+		</div>
+		<div class="nhl-logo">
+			<img src="https://s3.eu-central-1.amazonaws.com/100jaarhts/nhllogo.png">
+		</div>
+	</div>
 	<% if(res.locals.flash != undefined) {%>
 		<% if(res.locals.flash.error != undefined){ %>
 			<div class="box box-error"><%= res.locals.flash.error %></div>
@@ -9,10 +17,14 @@
 	<% } %>
 	<h1>Vul uw naam in</h1>
 	<form action="/check_person" class="from" id="userFrom">
-		<input type="text" class="text-field" id="first_name" name="first_name" placeholder="Voornaam" value="Edgar">
-		<input type="text" class="text-field" id="last_name" name="last_name" placeholder="Achternaam" value="Spruijt">
-		<input type="text" id="photo_name" name="image_name" value="test" style="display:none">
-		<input type="submit" class="btn btn-submit" value="Stuur">
+		<p>
+			<input type="text" class="text-field" id="first_name" name="first_name" placeholder="Voornaam">
+			<input type="text" class="text-field" id="last_name" name="last_name" placeholder="Achternaam">
+			<input type="text" id="photo_name" name="image_name" value="test" style="display:none">
+		</p>
+		<p>
+			<input type="submit" class="btn btn-submit" value="Verstuur">
+		</p>
 	</form>
 </div>
 <div class="coll tap-6 box box-flat">

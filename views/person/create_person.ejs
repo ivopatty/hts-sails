@@ -1,22 +1,34 @@
 <div class="coll tap-6 box">
-	<h1>Registreer nieuw gebruiker</h1>
+	<div class="content-header">
+		<div class="hts-logo">
+			<img src="https://s3.eu-central-1.amazonaws.com/100jaarhts/logo.png">
+		</div>
+		<div class="nhl-logo">
+			<img src="https://s3.eu-central-1.amazonaws.com/100jaarhts/nhllogo.png">
+		</div>
+	</div>
+	<h1>Registreer nieuwe gebruiker</h1>
 	<form action="/create_and_send" class="from" id="userFrom">
-		<input type="text" class="text-field" id="first_name" name="first_name" value = "<%= person.first_name %>" >
-		<input type="text" class="text-field" id="last_name" name="last_name" value = "<%= person.last_name %>" >
-		<input type="email" class="text-field" id="email" name="email" placeholder="E-mail" >
-		<input type="text" class="text-field" id="street" name="street" placeholder="Straat naam" >
-		<input type="number" class="text-field" id="number" name="number" placeholder="Huisnummer" >
-		<input type="text" class="text-field" id="city" name="city" placeholder="Woonplaats" >
-		<input type="text" class="text-field" id="zipcode" name="zipcode" placeholder="Postcode" >
-		<input type="number" class="number-field" id="graduation_year" name="graduation_year" placeholder="Afstudeer jaar" >
-		<input type="text" class="text-field" id="major" name="major" placeholder="Afgestudeerd in" >
+		<p>
+			<input type="text" class="text-field" id="first_name" name="first_name" value = "<%= person.first_name %>" >
+			<input type="text" class="text-field" id="last_name" name="last_name" value = "<%= person.last_name %>" >
+			<input type="email" class="text-field" id="email" name="email" placeholder="E-mail" >
+			<input type="text" class="text-field" id="street" name="street" placeholder="Straat naam" >
+			<input type="number" class="text-field" id="number" name="number" placeholder="Huisnummer" >
+			<input type="text" class="text-field" id="city" name="city" placeholder="Woonplaats" >
+			<input type="text" class="text-field" id="zipcode" name="zipcode" placeholder="Postcode" >
+			<input type="number" class="number-field" id="graduation_year" name="graduation_year" placeholder="Afstudeer jaar" >
+			<input type="text" class="text-field" id="major" name="major" placeholder="Opleiding" >
 
-		<input type="text" id="photo_name" name="image_name" value="<%= photo %>" style="display:none">
-		<input type="submit" value="Stuur" class="btn btn-submit">
+			<input type="text" id="photo_name" name="image_name" value="<%= photo %>" style="display:none">
+		</p>
+		<p>
+			<input type="submit" value="Stuur" class="btn btn-submit">
+		</p>
 	</form>
 </div>
 <div class="coll tap-6">
 	<div class="box box-flat">
-		<img src="<%= photoPath %>" alt="">
+		<img src="<%= photoPath %>" alt="" id="photo">
 	</div>	
 </div>
