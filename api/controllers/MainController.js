@@ -45,7 +45,7 @@ module.exports = {
 		req.session.flash = {};
 	},
     'get_image': function(req,res){
-        res.send(imgQueue.pop());
+        res.send(imgQueue[imgQueue.length-1]);
     }
 };
 
