@@ -6,7 +6,7 @@
 var restler = require("restler");
 var fs = require("fs");
 var http = require("http");
-var serverPost = "http://dev.100jaarhts.nl/";
+var serverPost = "http://100jaarhts.nl/";
 var imgType = "image/jpg";
 var image_token = "48d2fc2358a74103eddcfc91ce56b845704aa557d6cfd12d83a064ba315118e982f4ca049b1ad309176d5593475b06ac6c1736bfa609349c981cb29687ad44e0";
 var user_token = "1b36fc3a3461ecf662b8b839ab7c96ad643e77c886f31346a259bb4bc69b6ab87266efa6af227c2492d999b60c24a33ee98f8af1a5fdec8bfd19c274b7166976";
@@ -80,7 +80,7 @@ function sendImage(url, data, image, token, req, res){
 		  	if (err) {
 		    	return console.error('upload failed:', err);
 		  	}
-		  	console.log('Upload successful!  Server responded with:', body);
+		  	//console.log('Upload successful!  Server responded with:', body);
 		  	body = JSON.parse(body);
 		  	if(body.error)
 		  		req.session.flash = {error: body.error};

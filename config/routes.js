@@ -63,6 +63,10 @@ module.exports.routes = {
     "/pof":{
         controller:"pof",
         action:"index"
+    },
+    "/get_image":{
+      controller:"main",
+      action:"get_image"
     }
 
   /***************************************************************************
