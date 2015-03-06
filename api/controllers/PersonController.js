@@ -3,12 +3,13 @@
 *
 * @class PersonController
 */
-var user_toke = "1b36fc3a3461ecf662b8b839ab7c96ad643e77c886f31346a259bb4bc69b6ab87266efa6af227c2492d999b60c24a33ee98f8af1a5fdec8bfd19c274b7166976";
+var user_toke = "1b36fc3a3461ecf662b8b839ab7c96ad643e77c886f31346a259bb4bc69b6ab87266'\
+    'efa6af227c2492d999b60c24a33ee98f8af1a5fdec8bfd19c274b7166976";
 
 var restler = require("restler");
-var postServer = "http://dev.100jaarhts.nl/";
-var photo = "";
-var person = {};
+var postServer = "http://100jaarhts.nl/";
+//var photo = "";
+//var person = {};
 module.exports = {
     /**
     * Sends a check person request to the 100jaarhts server. 
@@ -30,7 +31,7 @@ module.exports = {
 			req.session.flash = {error: "Er is nog geen foto genomen"}
 			return res.redirect("main/index");
 		}
-		photo = req.param('image_name');
+		var photo = req.param('image_name');
 		restler.get(postServer+"/process/check_person", {
 		    data: {
 		      "post_token": user_toke,
@@ -38,19 +39,23 @@ module.exports = {
 		      "last_name": req.param("last_name")
 		    }
 		  }).on("complete", function(data, response) {
-		    console.log("data: "+data);
-		    console.log("response: "+response);
-		    person = data;
+		    //console.log("data: "+data);
+		    //console.log("response: "+response);
+		    var person = data;
 		    if(data.length == 0)
 		    {
 		    	person['last_name'] = req.param("last_name");
 		    	person['first_name'] = req.param("first_name");
-		    	res.redirect("/create_person");
+                req.session.person = person;
+		    	req.session.photo = photo;
+		    	return res.redirect("/create_person");
 		    }
 		    else if(data.length > 1)
 		    {
 		    	res.send(data);
-		    	res.redirect("/select_person");
+                req.session.person = person;
+		    	req.session.photo = photo;
+		    	return res.redirect("/select_person");
 		    }
 		    else if(data.length == 1){
 		    	req.session.person = person;
@@ -65,6 +70,9 @@ module.exports = {
     * @method select_person
     */
 	'select_person':function(req,res){
+        var photo = _.clone(req.session.photo);
+        var person = _.clone(req.session.person);
+        console.log("Person: "+person);
 		var photoObj = JSON.parse(photo);
 		var photoPath = photoObj.clientPath+photoObj.file;
 		return res.view({photo:photo,person:person, photoPath: photoPath});
@@ -75,6 +83,8 @@ module.exports = {
     * @method select_person
     */
 	'create_person':function(req,res){
+        var photo = _.clone(req.session.photo);
+        var person = _.clone(req.session.person);
 		var photoObj = JSON.parse(photo);
 		var photoPath = photoObj.clientPath+photoObj.file;
 		return res.view({photo:photo, person: person, photoPath: photoPath});

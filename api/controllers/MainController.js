@@ -10,6 +10,7 @@ var newestPhoto = "";
 var photoPath = "./assets/images/greenscreen/";
 var clientPhotoPath = "/images/greenscreen/";
 var publicPath = "./.tmp/public/images/greenscreen/";
+var imgQueue = new Array();
 // watch the photo folder
 fs.watch(photoPath,function(event, file){
 	{
@@ -23,7 +24,8 @@ fs.watch(photoPath,function(event, file){
             fs.writeFileSync(publicPath+file, fs.readFileSync(photoPath+file));
 		        newestPhoto = file;
 		        console.log(exists +" "+ file);
-		        sails.sockets.blast("update", {file: file, clientPath: clientPhotoPath, serverPath: photoPath});
+		        //sails.sockets.blast("update", {file: file, clientPath: clientPhotoPath, serverPath: photoPath});
+                imgQueue.push({file: file, clientPath: clientPhotoPath, serverPath: photoPath});
 		      }
 		    });
 		}
@@ -41,9 +43,9 @@ module.exports = {
 		res.locals.flash = _.clone(req.session.flash);
 		res.view({photo: newestPhoto});
 		req.session.flash = {};
-		sails.io.on("connection",function(socket){
-			socket.emit("update", {file: newestPhoto, clientPath: clientPhotoPath, serverPath: photoPath})
-		});
-	}
+	},
+    'get_image': function(req,res){
+        res.send(imgQueue.pop());
+    }
 };
 

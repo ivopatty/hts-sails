@@ -1,3 +1,4 @@
+<div id="get_image">Klik hier om de foto op te halen</div>
 <div class="coll tap-6 box">
 	<% if(res.locals.flash != undefined) {%>
 		<% if(res.locals.flash.error != undefined){ %>
@@ -9,8 +10,8 @@
 	<% } %>
 	<h1>Vul uw naam in</h1>
 	<form action="/check_person" class="from" id="userFrom">
-		<input type="text" class="text-field" id="first_name" name="first_name" placeholder="Voornaam" value="Edgar">
-		<input type="text" class="text-field" id="last_name" name="last_name" placeholder="Achternaam" value="Spruijt">
+		<input type="text" class="text-field" id="first_name" name="first_name" placeholder="Voornaam">
+		<input type="text" class="text-field" id="last_name" name="last_name" placeholder="Achternaam">
 		<input type="text" id="photo_name" name="image_name" value="test" style="display:none">
 		<input type="submit" class="btn btn-submit" value="Stuur">
 	</form>
