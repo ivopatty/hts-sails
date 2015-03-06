@@ -3,12 +3,12 @@
 *
 * @class PersonController
 */
-var user_toke = "1b36fc3a3461ecf662b8b839ab7c96ad643e77c886f31346a259bb4bc69b6ab87266'\
+var user_toke = "1b36fc3a3461ecf662b8b839ab7c96ad643e77c886f31346a259bb4bc69b6ab87266p'\
     'efa6af227c2492d999b60c24a33ee98f8af1a5fdec8bfd19c274b7166976";
 
 var restler = require("restler");
-var postServer = "http://100jaarhts.nl/";
-//var photo = "";
+var postServer = "http://pilot.100jaarhts.nl/";
+//var photo = ";
 //var person = {};
 module.exports = {
     /**
