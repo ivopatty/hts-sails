@@ -31,22 +31,23 @@ module.exports = {
 			return res.redirect("main/index");
 		}
 		var photo = req.param('image_name');
-		restler.get(postServer+"/process/check_person", {
+		restler.get(postServer+"process/check_person", {
 		    data: {
 		      "post_token": user_toke,
 		      "first_name": req.param("first_name"),
 		      "last_name": req.param("last_name")
 		    }
 		  }).on("complete", function(data, response) {
-		    //console.log("data: "+data);
-		    //console.log("response: "+response);
+		    console.log("firstname: "+req.param("first_name"));
+            console.log("lastname: "+req.param("last_name"));
+            console.log("data: "+ data);
 		    var person = data;
 		    if(data.length == 0)
 		    {
-		    	person['last_name'] = req.param("last_name");
-		    	person['first_name'] = req.param("first_name");
+		    	person = {'last_name': req.param("last_name"), 'first_name':  req.param("first_name")};
                 req.session.person = person;
 		    	req.session.photo = photo;
+                console.log("Person: "+person);
 		    	return res.redirect("/create_person");
 		    }
 		    else if(data.length > 1)
@@ -71,7 +72,6 @@ module.exports = {
 	'select_person':function(req,res){
         var photo = _.clone(req.session.photo);
         var person = _.clone(req.session.person);
-        console.log("Person: "+person);
 		var photoObj = JSON.parse(photo);
 		var photoPath = photoObj.clientPath+photoObj.file;
 		return res.view({photo:photo,person:person, photoPath: photoPath});
@@ -84,8 +84,9 @@ module.exports = {
 	'create_person':function(req,res){
         var photo = _.clone(req.session.photo);
         var person = _.clone(req.session.person);
-		var photoObj = JSON.parse(photo);
-		var photoPath = photoObj.clientPath+photoObj.file;
+        var photoObj = JSON.parse(photo);
+		var photoPath = photoObj.clientPath+""+photoObj.file;
+        //console.log(photoPath);
 		return res.view({photo:photo, person: person, photoPath: photoPath});
 	}
 };

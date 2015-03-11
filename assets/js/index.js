@@ -8,6 +8,7 @@ io.socket.on("update", function(msg){
 $("#get_image").click(function(){
   $.get("/get_image",function(data){
     //alert(data.file);
+    $("#get_image").hide();
     $("#photo_name").attr("value",JSON.stringify(data));
     $("#photo").attr("src",data.clientPath+data.file);
   })
