@@ -88,5 +88,6 @@ module.exports = {
 		var photoPath = photoObj.clientPath+""+photoObj.file;
         //console.log(photoPath);
 		return res.view({photo:photo, person: person, photoPath: photoPath});
+		// return res.redirect("/")
 	}
 };

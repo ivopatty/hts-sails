@@ -56,6 +56,7 @@ module.exports = {
 		var image = req.param("image_name");
 		console.log(data);
 		sendImage(serverPost+"/process/create_person",data,image,user_token, req, res);
+		return res.redirect("/")
 
 	}
 };
