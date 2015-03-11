@@ -11,11 +11,12 @@ var photoPath = "./assets/images/greenscreen/";
 var clientPhotoPath = "/images/greenscreen/";
 var publicPath = "./.tmp/public/images/greenscreen/";
 var imgQueue = new Array();
+var jpg = /.jpg/
 // watch the photo folder
 fs.watch(photoPath,function(event, file){
 	{
         // check is the change is not from the .DS_Store file
-		if(file != ".DS_Store" && !file.type.match('image.*'))
+		if(file != ".DS_Store" && jpg.test(file))
 		{
 			// if file is deleted or added
 		    fs.exists(photoPath+file, function(exists){
